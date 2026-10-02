@@ -1,0 +1,488 @@
+[
+  {
+    "id": "aves-001",
+    "nome": "Frango assado com batatas",
+    "categoria": "aves",
+    "porcoes": 6,
+    "tempo_minutos": 100,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "frango inteiro", "quantidade": 1.8, "unidade": "kg" },
+      { "item": "batatas em pedaços", "quantidade": 1, "unidade": "kg" },
+      { "item": "limão (suco)", "quantidade": 2, "unidade": "un" },
+      { "item": "dentes de alho amassados", "quantidade": 6, "unidade": "un" },
+      { "item": "manteiga amolecida", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "alecrim", "quantidade": 2, "unidade": "ramos" },
+      { "item": "sal", "quantidade": 2, "unidade": "colher de chá" }
+    ],
+    "modo_preparo": [
+      "Tempere o frango por dentro e por fora com limão, alho, sal e pimenta. Deixe marinar por 2 horas na geladeira.",
+      "Misture a manteiga com o alecrim picado e passe por baixo da pele do peito e por cima do frango.",
+      "Coloque o frango em uma assadeira, cerque com as batatas temperadas e regue com um fio de azeite.",
+      "Asse a 200 °C por 1h15 a 1h30, virando as batatas na metade. O frango está pronto quando o suco da coxa sai transparente.",
+      "Descanse 10 minutos antes de trinchar."
+    ],
+    "dicas": "Seque bem a pele antes de assar para ficar crocante."
+  },
+  {
+    "id": "aves-002",
+    "nome": "Frango xadrez",
+    "categoria": "aves",
+    "porcoes": 4,
+    "tempo_minutos": 35,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "peito de frango em cubos", "quantidade": 600, "unidade": "g" },
+      { "item": "pimentão vermelho em cubos", "quantidade": 1, "unidade": "un" },
+      { "item": "pimentão verde em cubos", "quantidade": 1, "unidade": "un" },
+      { "item": "cebola em pedaços", "quantidade": 2, "unidade": "un" },
+      { "item": "amendoim torrado sem sal", "quantidade": 80, "unidade": "g" },
+      { "item": "shoyu", "quantidade": 4, "unidade": "colher de sopa" },
+      { "item": "amido de milho", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "óleo", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Tempere o frango com 2 colheres de shoyu e o amido. Deixe por 15 minutos.",
+      "Aqueça o óleo em wok ou frigideira grande em fogo alto e frite o frango por 4 a 5 minutos, até dourar. Reserve.",
+      "Na mesma panela, salteie a cebola e os pimentões por 3 minutos, mantendo-os crocantes.",
+      "Volte o frango, junte o shoyu restante e 3 colheres de água. Cozinhe por 2 minutos.",
+      "Finalize com o amendoim e sirva com arroz."
+    ],
+    "dicas": "Mantenha o fogo alto para os legumes não soltarem água."
+  },
+  {
+    "id": "aves-003",
+    "nome": "Frango à parmegiana",
+    "categoria": "aves",
+    "porcoes": 4,
+    "tempo_minutos": 50,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "filés de peito de frango", "quantidade": 4, "unidade": "un" },
+      { "item": "ovos batidos", "quantidade": 2, "unidade": "un" },
+      { "item": "farinha de rosca", "quantidade": 1, "unidade": "xícara" },
+      { "item": "molho de tomate", "quantidade": 300, "unidade": "ml" },
+      { "item": "muçarela fatiada", "quantidade": 200, "unidade": "g" },
+      { "item": "parmesão ralado", "quantidade": 40, "unidade": "g" },
+      { "item": "óleo para fritar", "quantidade": 400, "unidade": "ml" }
+    ],
+    "modo_preparo": [
+      "Abra os filés ao meio na horizontal e bata até ficarem com 1 cm. Tempere com sal, pimenta e limão.",
+      "Passe nos ovos e na farinha de rosca, apertando bem.",
+      "Frite em óleo quente por 3 minutos de cada lado, até dourar. Escorra.",
+      "Em um refratário, disponha os filés, cubra com molho, muçarela e parmesão.",
+      "Asse a 200 °C por 12 a 15 minutos, até gratinar."
+    ],
+    "dicas": "Filés finos e uniformes cozinham por igual e ficam macios."
+  },
+  {
+    "id": "aves-004",
+    "nome": "Galinhada",
+    "categoria": "aves",
+    "porcoes": 6,
+    "tempo_minutos": 60,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "sobrecoxas de frango", "quantidade": 1, "unidade": "kg" },
+      { "item": "arroz", "quantidade": 2, "unidade": "xícara" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho", "quantidade": 4, "unidade": "un" },
+      { "item": "açafrão ou colorau", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "ervilhas", "quantidade": 100, "unidade": "g" },
+      { "item": "milho verde", "quantidade": 100, "unidade": "g" },
+      { "item": "cheiro-verde", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Tempere o frango com sal, alho e pimenta. Doure em panela grande com óleo, 4 minutos de cada lado.",
+      "Junte a cebola e o açafrão e refogue por 3 minutos.",
+      "Adicione o arroz e mexa por 2 minutos. Acrescente 4 xícaras de água quente e acerte o sal.",
+      "Tampe e cozinhe em fogo baixo por 20 minutos, até o arroz secar. Junte as ervilhas e o milho nos últimos 5 minutos.",
+      "Finalize com cheiro-verde."
+    ],
+    "dicas": "Não mexa o arroz durante o cozimento, para ficar soltinho."
+  },
+  {
+    "id": "aves-005",
+    "nome": "Strogonoff de frango",
+    "categoria": "aves",
+    "porcoes": 6,
+    "tempo_minutos": 35,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "peito de frango em cubos", "quantidade": 700, "unidade": "g" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "champignon fatiado", "quantidade": 200, "unidade": "g" },
+      { "item": "extrato de tomate", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "ketchup", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "mostarda", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "creme de leite", "quantidade": 300, "unidade": "g" },
+      { "item": "manteiga", "quantidade": 2, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Tempere o frango com sal e pimenta e doure na manteiga em fogo alto por 5 minutos.",
+      "Junte a cebola e refogue por 3 minutos. Acrescente o champignon.",
+      "Adicione o extrato, o ketchup, a mostarda e 1/2 xícara de água. Cozinhe por 8 minutos.",
+      "Desligue o fogo, misture o creme de leite e sirva com arroz e batata palha."
+    ],
+    "dicas": "Não deixe ferver depois de adicionar o creme de leite."
+  },
+  {
+    "id": "aves-006",
+    "nome": "Frango com quiabo",
+    "categoria": "aves",
+    "porcoes": 6,
+    "tempo_minutos": 50,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "frango em pedaços (coxas e sobrecoxas)", "quantidade": 1, "unidade": "kg" },
+      { "item": "quiabo em rodelas", "quantidade": 400, "unidade": "g" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho", "quantidade": 4, "unidade": "un" },
+      { "item": "tomates picados", "quantidade": 2, "unidade": "un" },
+      { "item": "limão (suco)", "quantidade": 1, "unidade": "un" },
+      { "item": "cheiro-verde", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Tempere o frango com limão, sal, alho e pimenta. Deixe por 30 minutos.",
+      "Doure os pedaços em óleo quente por 6 a 8 minutos. Junte a cebola e os tomates.",
+      "Adicione 1 xícara de água quente, tampe e cozinhe em fogo baixo por 25 minutos.",
+      "Acrescente o quiabo e cozinhe sem tampar por 10 minutos, mexendo pouco para não babar.",
+      "Finalize com cheiro-verde."
+    ],
+    "dicas": "Quiabo bem seco e fogo alto no início reduzem a baba."
+  },
+  {
+    "id": "aves-007",
+    "nome": "Coxinha de frango",
+    "categoria": "aves",
+    "porcoes": 30,
+    "tempo_minutos": 120,
+    "dificuldade": "difícil",
+    "ingredientes": [
+      { "item": "peito de frango cozido e desfiado", "quantidade": 500, "unidade": "g" },
+      { "item": "caldo do cozimento do frango", "quantidade": 1, "unidade": "litro" },
+      { "item": "farinha de trigo", "quantidade": 2, "unidade": "xícara" },
+      { "item": "manteiga", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "requeijão", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "ovos batidos", "quantidade": 2, "unidade": "un" },
+      { "item": "farinha de rosca", "quantidade": 2, "unidade": "xícara" }
+    ],
+    "modo_preparo": [
+      "Refogue a cebola na manteiga e junte o frango desfiado e o requeijão. Reserve o recheio.",
+      "Leve o caldo ao fogo com sal e, quando ferver, despeje a farinha de uma vez, mexendo vigorosamente até soltar do fundo (cerca de 5 minutos).",
+      "Sove a massa ainda morna sobre a bancada até ficar lisa. Deixe amornar.",
+      "Pegue um pedaço de massa, abra na palma, coloque o recheio, feche e modele em formato de gota.",
+      "Passe nos ovos e na farinha de rosca. Frite em óleo a 170 °C até dourar, 4 a 5 minutos."
+    ],
+    "dicas": "Congeladas antes de fritar, as coxinhas podem durar até 2 meses."
+  },
+  {
+    "id": "aves-008",
+    "nome": "Frango ao curry com leite de coco",
+    "categoria": "aves",
+    "porcoes": 4,
+    "tempo_minutos": 40,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "peito ou coxa de frango em cubos", "quantidade": 700, "unidade": "g" },
+      { "item": "leite de coco", "quantidade": 400, "unidade": "ml" },
+      { "item": "curry em pó", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho", "quantidade": 3, "unidade": "un" },
+      { "item": "gengibre ralado", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "coentro fresco", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Refogue a cebola, o alho e o gengibre em óleo por 4 minutos. Junte o curry e mexa por 30 segundos.",
+      "Acrescente o frango e doure por 5 minutos.",
+      "Adicione o leite de coco e 1/2 xícara de água. Cozinhe em fogo baixo por 20 minutos.",
+      "Acerte o sal e finalize com coentro. Sirva com arroz."
+    ],
+    "dicas": "Tostar o curry no óleo realça o aroma."
+  },
+  {
+    "id": "aves-009",
+    "nome": "Peru de Natal assado",
+    "categoria": "aves",
+    "porcoes": 12,
+    "tempo_minutos": 300,
+    "dificuldade": "difícil",
+    "ingredientes": [
+      { "item": "peru", "quantidade": 5, "unidade": "kg" },
+      { "item": "sal", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "dentes de alho amassados", "quantidade": 10, "unidade": "un" },
+      { "item": "limão (suco)", "quantidade": 3, "unidade": "un" },
+      { "item": "manteiga", "quantidade": 150, "unidade": "g" },
+      { "item": "vinho branco seco", "quantidade": 300, "unidade": "ml" },
+      { "item": "ervas (tomilho, sálvia, alecrim)", "quantidade": 1, "unidade": "maço" }
+    ],
+    "modo_preparo": [
+      "Descongele o peru na geladeira por 2 a 3 dias, se for congelado. Tempere com sal, alho, limão e vinho e deixe marinar por 12 horas.",
+      "Tire da geladeira 1 hora antes de assar. Misture a manteiga com as ervas e passe por baixo da pele e por fora.",
+      "Coloque em assadeira, cubra com alumínio e asse a 180 °C por cerca de 3h30 (cerca de 40 minutos por kg), regando a cada 40 minutos com o líquido da assadeira.",
+      "Retire o alumínio nos últimos 40 minutos para dourar. A temperatura da coxa deve chegar a 75 °C.",
+      "Descanse 30 minutos coberto antes de fatiar."
+    ],
+    "dicas": "O descanso é essencial para a carne ficar suculenta."
+  },
+  {
+    "id": "aves-010",
+    "nome": "Canja de galinha",
+    "categoria": "aves",
+    "porcoes": 6,
+    "tempo_minutos": 60,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "peito e coxas de frango", "quantidade": 800, "unidade": "g" },
+      { "item": "arroz", "quantidade": 1, "unidade": "xícara" },
+      { "item": "cenoura em cubos", "quantidade": 2, "unidade": "un" },
+      { "item": "batata em cubos", "quantidade": 2, "unidade": "un" },
+      { "item": "cebola", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho", "quantidade": 3, "unidade": "un" },
+      { "item": "cheiro-verde", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Cozinhe o frango com a cebola, o alho e 2 litros de água por 30 minutos, retirando a espuma. Retire o frango e desfie.",
+      "Coe o caldo e leve de volta ao fogo. Junte o arroz, as cenouras e as batatas.",
+      "Cozinhe por 15 a 20 minutos, até tudo ficar macio.",
+      "Volte o frango desfiado, acerte o sal e finalize com cheiro-verde."
+    ],
+    "dicas": "Retirar a espuma no início deixa o caldo claro e limpo."
+  },
+  {
+    "id": "aves-011",
+    "nome": "Peito de frango grelhado",
+    "categoria": "aves",
+    "porcoes": 4,
+    "tempo_minutos": 25,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "filés de peito de frango", "quantidade": 4, "unidade": "un de 150 g" },
+      { "item": "limão (suco)", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho amassados", "quantidade": 2, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "páprica ou ervas", "quantidade": 1, "unidade": "colher de chá" }
+    ],
+    "modo_preparo": [
+      "Achate os filés para terem espessura uniforme de 1,5 cm.",
+      "Tempere com limão, alho, páprica, sal e pimenta por 15 minutos.",
+      "Aqueça uma frigideira com azeite em fogo médio-alto.",
+      "Grelhe 4 a 5 minutos de cada lado, sem mexer, até dourar e o interior não ter mais parte rosada.",
+      "Descanse 3 minutos antes de servir."
+    ],
+    "dicas": "Achatar o filé evita que as bordas sequem enquanto o centro cozinha."
+  },
+  {
+    "id": "aves-012",
+    "nome": "Frango empanado crocante",
+    "categoria": "aves",
+    "porcoes": 4,
+    "tempo_minutos": 35,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "filés de peito de frango", "quantidade": 600, "unidade": "g" },
+      { "item": "leite", "quantidade": 200, "unidade": "ml" },
+      { "item": "farinha de trigo", "quantidade": 1, "unidade": "xícara" },
+      { "item": "ovos batidos", "quantidade": 2, "unidade": "un" },
+      { "item": "farinha panko ou de rosca", "quantidade": 1.5, "unidade": "xícara" },
+      { "item": "óleo para fritar", "quantidade": 500, "unidade": "ml" }
+    ],
+    "modo_preparo": [
+      "Corte o frango em tiras e deixe 20 minutos no leite com sal e pimenta. Escorra.",
+      "Passe na farinha de trigo, nos ovos e na farinha de panko.",
+      "Frite em óleo a 175 °C por 3 a 4 minutos de cada lado, em poucas porções.",
+      "Escorra sobre papel-toalha e sirva."
+    ],
+    "dicas": "A marinada no leite deixa o frango macio e suculento."
+  },
+  {
+    "id": "aves-013",
+    "nome": "Frango ensopado com legumes",
+    "categoria": "aves",
+    "porcoes": 6,
+    "tempo_minutos": 55,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "coxas e sobrecoxas de frango", "quantidade": 1, "unidade": "kg" },
+      { "item": "batatas em pedaços", "quantidade": 3, "unidade": "un" },
+      { "item": "cenouras em rodelas", "quantidade": 2, "unidade": "un" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "tomates picados", "quantidade": 2, "unidade": "un" },
+      { "item": "extrato de tomate", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "cheiro-verde", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Doure o frango temperado em óleo quente por 8 minutos. Junte a cebola e o extrato.",
+      "Acrescente os tomates e 3 xícaras de água quente. Cozinhe tampado por 20 minutos.",
+      "Junte as batatas e as cenouras e cozinhe por mais 15 a 20 minutos, até macias.",
+      "Finalize com cheiro-verde."
+    ],
+    "dicas": "Para engrossar o caldo, amasse um pedaço de batata na panela."
+  },
+  {
+    "id": "aves-014",
+    "nome": "Frango recheado com farofa",
+    "categoria": "aves",
+    "porcoes": 6,
+    "tempo_minutos": 120,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "frango inteiro", "quantidade": 1.8, "unidade": "kg" },
+      { "item": "farinha de mandioca torrada", "quantidade": 2, "unidade": "xícara" },
+      { "item": "bacon picado", "quantidade": 100, "unidade": "g" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "passas", "quantidade": 50, "unidade": "g" },
+      { "item": "manteiga", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "limão (suco)", "quantidade": 2, "unidade": "un" }
+    ],
+    "modo_preparo": [
+      "Tempere o frango com limão, sal e alho e deixe por 2 horas.",
+      "Frite o bacon, junte a cebola e a manteiga, depois a farinha e as passas. Misture bem para a farofa.",
+      "Recheie o frango com a farofa fria e feche com palitos.",
+      "Asse a 200 °C coberto com alumínio por 1 hora. Retire o alumínio e asse por mais 30 a 40 minutos.",
+      "Descanse 10 minutos antes de cortar."
+    ],
+    "dicas": "Recheie sem apertar demais, pois a farofa incha ao assar."
+  },
+  {
+    "id": "aves-015",
+    "nome": "Escondidinho de frango",
+    "categoria": "aves",
+    "porcoes": 8,
+    "tempo_minutos": 70,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "peito de frango cozido e desfiado", "quantidade": 600, "unidade": "g" },
+      { "item": "batatas cozidas", "quantidade": 1, "unidade": "kg" },
+      { "item": "manteiga", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "leite", "quantidade": 150, "unidade": "ml" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "molho de tomate", "quantidade": 200, "unidade": "ml" },
+      { "item": "muçarela ralada", "quantidade": 200, "unidade": "g" }
+    ],
+    "modo_preparo": [
+      "Amasse as batatas ainda quentes com 2 colheres de manteiga e o leite até virar purê. Tempere com sal.",
+      "Refogue a cebola na manteiga restante. Junte o frango e o molho de tomate e cozinhe por 8 minutos.",
+      "Em um refratário, espalhe o frango e cubra com o purê. Finalize com a muçarela.",
+      "Asse a 200 °C por 20 minutos, até gratinar."
+    ],
+    "dicas": "O purê fica mais cremoso quando as batatas são amassadas ainda quentes."
+  },
+  {
+    "id": "aves-016",
+    "nome": "Frango ao molho de mostarda",
+    "categoria": "aves",
+    "porcoes": 4,
+    "tempo_minutos": 35,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "filés de peito de frango", "quantidade": 4, "unidade": "un" },
+      { "item": "mostarda dijon", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "creme de leite fresco", "quantidade": 200, "unidade": "ml" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "manteiga", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "vinho branco seco", "quantidade": 100, "unidade": "ml" }
+    ],
+    "modo_preparo": [
+      "Tempere o frango com sal e pimenta. Doure na manteiga por 4 minutos de cada lado. Reserve.",
+      "Na mesma panela, refogue a cebola por 3 minutos. Adicione o vinho e deixe reduzir pela metade.",
+      "Junte o creme de leite e a mostarda e cozinhe por 3 minutos.",
+      "Volte o frango ao molho por 2 minutos e sirva."
+    ],
+    "dicas": "A mostarda dijon dá sabor mais suave e cremoso que a tradicional."
+  },
+  {
+    "id": "aves-017",
+    "nome": "Asinha de frango assada",
+    "categoria": "aves",
+    "porcoes": 6,
+    "tempo_minutos": 70,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "asinhas de frango", "quantidade": 1, "unidade": "kg" },
+      { "item": "limão (suco)", "quantidade": 2, "unidade": "un" },
+      { "item": "dentes de alho amassados", "quantidade": 4, "unidade": "un" },
+      { "item": "páprica defumada", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "mel", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "azeite de oliva", "quantidade": 2, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Tempere as asinhas com limão, alho, páprica, sal e pimenta. Deixe marinar por 1 hora.",
+      "Disponha em assadeira e regue com azeite.",
+      "Asse a 210 °C por 40 minutos, virando na metade.",
+      "Pincele com mel e asse por mais 8 a 10 minutos, até caramelizar."
+    ],
+    "dicas": "Seque as asinhas antes de assar para a pele ficar crocante."
+  },
+  {
+    "id": "aves-018",
+    "nome": "Pato assado com laranja",
+    "categoria": "aves",
+    "porcoes": 4,
+    "tempo_minutos": 180,
+    "dificuldade": "difícil",
+    "ingredientes": [
+      { "item": "pato inteiro", "quantidade": 2, "unidade": "kg" },
+      { "item": "laranjas (suco e gomos)", "quantidade": 4, "unidade": "un" },
+      { "item": "mel", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "vinagre balsâmico", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "sal", "quantidade": 2, "unidade": "colher de chá" },
+      { "item": "tomilho", "quantidade": 4, "unidade": "ramos" }
+    ],
+    "modo_preparo": [
+      "Fure a pele do pato com um garfo, sem atingir a carne. Tempere com sal e tomilho e deixe descoberto na geladeira por 6 horas.",
+      "Asse a 160 °C por 1h30 em grelha sobre assadeira para escorrer a gordura. Retire a gordura acumulada na metade.",
+      "Ferva o suco de laranja com o mel e o vinagre em fogo baixo por 10 a 12 minutos, até virar uma calda.",
+      "Pincele o pato com a calda, aumente o forno para 200 °C e asse por 20 a 25 minutos, até dourar.",
+      "Descanse 15 minutos e sirva com os gomos de laranja."
+    ],
+    "dicas": "A gordura do pato é ótima para fritar batatas."
+  },
+  {
+    "id": "aves-019",
+    "nome": "Frango com requeijão e milho",
+    "categoria": "aves",
+    "porcoes": 6,
+    "tempo_minutos": 45,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "peito de frango em cubos", "quantidade": 700, "unidade": "g" },
+      { "item": "milho verde", "quantidade": 200, "unidade": "g" },
+      { "item": "requeijão cremoso", "quantidade": 250, "unidade": "g" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho", "quantidade": 2, "unidade": "un" },
+      { "item": "muçarela ralada", "quantidade": 150, "unidade": "g" }
+    ],
+    "modo_preparo": [
+      "Refogue a cebola e o alho em óleo por 3 minutos. Junte o frango temperado e doure por 6 minutos.",
+      "Acrescente o milho e 1/2 xícara de água. Cozinhe por 10 minutos.",
+      "Desligue o fogo e misture o requeijão.",
+      "Transfira para um refratário, cubra com a muçarela e gratine a 200 °C por 10 minutos."
+    ],
+    "dicas": "Sirva com arroz branco e batata palha."
+  },
+  {
+    "id": "aves-020",
+    "nome": "Sobrecoxa assada com laranja e mel",
+    "categoria": "aves",
+    "porcoes": 6,
+    "tempo_minutos": 60,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "sobrecoxas de frango", "quantidade": 1, "unidade": "kg" },
+      { "item": "suco de laranja", "quantidade": 200, "unidade": "ml" },
+      { "item": "mel", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "shoyu", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "dentes de alho amassados", "quantidade": 3, "unidade": "un" },
+      { "item": "gengibre ralado", "quantidade": 1, "unidade": "colher de chá" }
+    ],
+    "modo_preparo": [
+      "Misture o suco de laranja, o mel, o shoyu, o alho e o gengibre.",
+      "Marine as sobrecoxas na mistura por 1 hora na geladeira.",
+      "Asse em assadeira a 200 °C por 40 a 45 minutos, regando com a marinada a cada 15 minutos.",
+      "Quando a pele dourar e o molho encorpar, retire e sirva."
+    ],
+    "dicas": "Se a pele queimar antes de cozinhar, cubra com alumínio por 10 minutos."
+  }
+]
