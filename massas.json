@@ -1,0 +1,488 @@
+[
+  {
+    "id": "massas-001",
+    "nome": "Espaguete à carbonara",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 30,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "espaguete", "quantidade": 400, "unidade": "g" },
+      { "item": "bacon ou guanciale em cubos", "quantidade": 150, "unidade": "g" },
+      { "item": "gemas", "quantidade": 4, "unidade": "un" },
+      { "item": "parmesão ralado", "quantidade": 80, "unidade": "g" },
+      { "item": "pimenta-do-reino", "quantidade": 1, "unidade": "colher de chá" }
+    ],
+    "modo_preparo": [
+      "Cozinhe o espaguete em água fervente com sal até ficar al dente (cerca de 9 min). Reserve 1 xícara da água do cozimento.",
+      "Frite o bacon em fogo médio, sem óleo, até dourar e soltar a gordura (6 a 8 min).",
+      "Misture as gemas, o parmesão e a pimenta em uma tigela.",
+      "Com o fogo desligado, junte a massa ao bacon e depois o creme de gemas, mexendo rápido. Acrescente a água reservada aos poucos até ficar cremoso.",
+      "Sirva na hora, com mais parmesão e pimenta."
+    ],
+    "dicas": "Fora do fogo, as gemas não talham."
+  },
+  {
+    "id": "massas-002",
+    "nome": "Macarrão ao alho e óleo",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 20,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "espaguete", "quantidade": 400, "unidade": "g" },
+      { "item": "dentes de alho fatiados", "quantidade": 6, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 100, "unidade": "ml" },
+      { "item": "pimenta calabresa", "quantidade": 1, "unidade": "colher de chá" },
+      { "item": "salsinha picada", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "sal", "quantidade": 1, "unidade": "pitada" }
+    ],
+    "modo_preparo": [
+      "Cozinhe o espaguete em água fervente com sal até ficar al dente (cerca de 9 min). Reserve 1 xícara da água do cozimento.",
+      "Aqueça o azeite em fogo baixo e doure o alho por 2 a 3 minutos, sem deixar escurecer demais.",
+      "Junte a pimenta calabresa e desligue o fogo por um instante.",
+      "Coloque a massa na frigideira, ligue o fogo médio e misture por 1 minuto, adicionando a água reservada até envolver bem.",
+      "Finalize com a salsinha e sirva em seguida."
+    ],
+    "dicas": "Alho queimado amarga; se escurecer rápido, tire a panela do fogo."
+  },
+  {
+    "id": "massas-003",
+    "nome": "Macarrão ao molho de tomate caseiro",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 40,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "penne ou espaguete", "quantidade": 400, "unidade": "g" },
+      { "item": "tomates maduros sem pele e sem sementes", "quantidade": 800, "unidade": "g" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho picados", "quantidade": 2, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "manjericão fresco", "quantidade": 10, "unidade": "folhas" },
+      { "item": "sal", "quantidade": 1, "unidade": "colher de chá" }
+    ],
+    "modo_preparo": [
+      "Refogue a cebola no azeite em fogo médio por 4 minutos até ficar transparente. Junte o alho e mexa por 30 segundos.",
+      "Acrescente os tomates picados e o sal. Cozinhe em fogo baixo, com a panela meio tampada, por 25 minutos, mexendo de vez em quando.",
+      "Amasse os tomates com a colher até obter um molho encorpado. Se estiver ácido, junte uma pitada de açúcar.",
+      "Cozinhe a massa em água fervente com sal até ficar al dente, escorra e misture ao molho.",
+      "Finalize com o manjericão rasgado e um fio de azeite."
+    ],
+    "dicas": "Para tirar a pele, faça um corte em X nos tomates e deixe 1 minuto em água fervente."
+  },
+  {
+    "id": "massas-004",
+    "nome": "Penne ao molho branco",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 30,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "penne", "quantidade": 400, "unidade": "g" },
+      { "item": "manteiga", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "farinha de trigo", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "leite integral", "quantidade": 600, "unidade": "ml" },
+      { "item": "noz-moscada ralada", "quantidade": 1, "unidade": "pitada" },
+      { "item": "queijo parmesão ralado", "quantidade": 50, "unidade": "g" },
+      { "item": "sal", "quantidade": 1, "unidade": "colher de chá" }
+    ],
+    "modo_preparo": [
+      "Cozinhe o penne em água fervente com sal até ficar al dente. Escorra.",
+      "Derreta a manteiga em fogo baixo, junte a farinha e mexa por 1 minuto sem deixar dourar.",
+      "Adicione o leite aos poucos, mexendo sempre com um fouet, até engrossar (cerca de 8 min).",
+      "Tempere com sal e noz-moscada e acrescente metade do parmesão.",
+      "Misture a massa ao molho e polvilhe o restante do queijo."
+    ],
+    "dicas": "Leite morno evita grumos no molho."
+  },
+  {
+    "id": "massas-005",
+    "nome": "Lasanha à bolonhesa",
+    "categoria": "massas",
+    "porcoes": 8,
+    "tempo_minutos": 90,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "massa de lasanha pré-cozida", "quantidade": 500, "unidade": "g" },
+      { "item": "carne moída", "quantidade": 600, "unidade": "g" },
+      { "item": "molho de tomate", "quantidade": 700, "unidade": "ml" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho picados", "quantidade": 3, "unidade": "un" },
+      { "item": "presunto fatiado", "quantidade": 300, "unidade": "g" },
+      { "item": "muçarela fatiada", "quantidade": 400, "unidade": "g" },
+      { "item": "molho branco pronto", "quantidade": 500, "unidade": "ml" },
+      { "item": "parmesão ralado", "quantidade": 60, "unidade": "g" }
+    ],
+    "modo_preparo": [
+      "Refogue a cebola e o alho em um fio de óleo. Junte a carne moída e frite em fogo alto até secar e dourar (8 min).",
+      "Adicione o molho de tomate, tempere com sal e pimenta e cozinhe em fogo baixo por 20 minutos.",
+      "Em um refratário, espalhe um pouco de molho e monte camadas: massa, molho à bolonhesa, presunto, muçarela e molho branco. Repita até acabar os ingredientes.",
+      "Termine com molho branco, muçarela e parmesão.",
+      "Cubra com papel-alumínio e asse a 200 °C por 30 minutos. Retire o alumínio e deixe mais 15 minutos até gratinar."
+    ],
+    "dicas": "Descanse 10 minutos antes de cortar para as camadas não escorrerem."
+  },
+  {
+    "id": "massas-006",
+    "nome": "Nhoque de batata",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 60,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "batatas asterix ou monalisa", "quantidade": 1, "unidade": "kg" },
+      { "item": "farinha de trigo", "quantidade": 250, "unidade": "g" },
+      { "item": "ovo", "quantidade": 1, "unidade": "un" },
+      { "item": "sal", "quantidade": 1, "unidade": "colher de chá" },
+      { "item": "noz-moscada", "quantidade": 1, "unidade": "pitada" }
+    ],
+    "modo_preparo": [
+      "Cozinhe as batatas com casca em água com sal por 25 a 30 minutos, até ficarem macias.",
+      "Descasque ainda quentes e passe pelo espremedor sobre a bancada.",
+      "Junte o ovo, o sal, a noz-moscada e a farinha aos poucos, misturando até formar uma massa macia que não grude nas mãos.",
+      "Faça rolinhos de 2 cm de espessura e corte em pedaços de 2 cm. Passe o garfo em cada um para marcar.",
+      "Cozinhe em água fervente com sal, em porções pequenas, até subirem à superfície (cerca de 2 min). Retire com escumadeira."
+    ],
+    "dicas": "Quanto menos farinha, mais macio o nhoque. Teste cozinhando um primeiro."
+  },
+  {
+    "id": "massas-007",
+    "nome": "Espaguete à bolonhesa",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 50,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "espaguete", "quantidade": 400, "unidade": "g" },
+      { "item": "carne moída", "quantidade": 400, "unidade": "g" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "cenoura ralada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho picados", "quantidade": 2, "unidade": "un" },
+      { "item": "molho de tomate", "quantidade": 500, "unidade": "ml" },
+      { "item": "azeite de oliva", "quantidade": 2, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Refogue a cebola, a cenoura e o alho no azeite por 5 minutos.",
+      "Junte a carne moída, mexendo para soltar, e frite até dourar bem (8 a 10 min).",
+      "Adicione o molho de tomate, acerte o sal e cozinhe em fogo baixo por 25 minutos.",
+      "Cozinhe o espaguete até ficar al dente e escorra.",
+      "Sirva a massa com o molho por cima."
+    ],
+    "dicas": "A cenoura ralada reduz a acidez do tomate sem precisar de açúcar."
+  },
+  {
+    "id": "massas-008",
+    "nome": "Macarrão ao molho pesto",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 25,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "espaguete ou fusilli", "quantidade": 400, "unidade": "g" },
+      { "item": "manjericão fresco", "quantidade": 60, "unidade": "g" },
+      { "item": "pinoli ou castanha de caju", "quantidade": 40, "unidade": "g" },
+      { "item": "parmesão ralado", "quantidade": 60, "unidade": "g" },
+      { "item": "dente de alho", "quantidade": 1, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 120, "unidade": "ml" },
+      { "item": "sal", "quantidade": 1, "unidade": "pitada" }
+    ],
+    "modo_preparo": [
+      "Bata no processador o manjericão, as castanhas, o alho e o parmesão até formar uma pasta grossa.",
+      "Com o processador ligado, adicione o azeite em fio até obter um molho cremoso. Acerte o sal.",
+      "Cozinhe a massa em água fervente com sal até ficar al dente. Reserve 1/2 xícara da água do cozimento.",
+      "Misture a massa ao pesto fora do fogo, acrescentando a água reservada para soltar o molho.",
+      "Sirva imediatamente."
+    ],
+    "dicas": "Não aqueça o pesto: o calor escurece o manjericão e amarga o molho."
+  },
+  {
+    "id": "massas-009",
+    "nome": "Fettuccine Alfredo",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 25,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "fettuccine", "quantidade": 400, "unidade": "g" },
+      { "item": "manteiga", "quantidade": 60, "unidade": "g" },
+      { "item": "creme de leite fresco", "quantidade": 300, "unidade": "ml" },
+      { "item": "parmesão ralado fino", "quantidade": 100, "unidade": "g" },
+      { "item": "noz-moscada", "quantidade": 1, "unidade": "pitada" },
+      { "item": "pimenta-do-reino", "quantidade": 1, "unidade": "pitada" }
+    ],
+    "modo_preparo": [
+      "Cozinhe o fettuccine em água fervente com sal até ficar al dente. Reserve 1/2 xícara da água do cozimento.",
+      "Derreta a manteiga em fogo baixo e junte o creme de leite. Deixe ferver suavemente por 3 minutos.",
+      "Desligue o fogo, adicione o parmesão aos poucos, mexendo até derreter.",
+      "Junte a massa ao molho, com a noz-moscada e a pimenta. Se necessário, afine com a água reservada.",
+      "Sirva em seguida."
+    ],
+    "dicas": "Use parmesão fresco ralado na hora; o de pacote não derrete bem."
+  },
+  {
+    "id": "massas-010",
+    "nome": "Macarrão com molho de quatro queijos",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 30,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "penne ou rigatoni", "quantidade": 400, "unidade": "g" },
+      { "item": "creme de leite fresco", "quantidade": 300, "unidade": "ml" },
+      { "item": "muçarela em cubos", "quantidade": 100, "unidade": "g" },
+      { "item": "gorgonzola", "quantidade": 80, "unidade": "g" },
+      { "item": "provolone em cubos", "quantidade": 80, "unidade": "g" },
+      { "item": "parmesão ralado", "quantidade": 60, "unidade": "g" }
+    ],
+    "modo_preparo": [
+      "Cozinhe a massa em água fervente com sal até ficar al dente e escorra.",
+      "Aqueça o creme de leite em fogo baixo até começar a soltar fumaça, sem ferver.",
+      "Junte o gorgonzola, o provolone e a muçarela, mexendo até derreter (4 a 5 min).",
+      "Acrescente o parmesão e misture. Prove antes de salgar, pois os queijos já são salgados.",
+      "Misture a massa ao molho e sirva quente."
+    ],
+    "dicas": "Se o molho engrossar demais, afine com um pouco da água do cozimento."
+  },
+  {
+    "id": "massas-011",
+    "nome": "Talharim ao funghi",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 35,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "talharim", "quantidade": 400, "unidade": "g" },
+      { "item": "cogumelos funghi secos", "quantidade": 30, "unidade": "g" },
+      { "item": "cogumelos paris frescos fatiados", "quantidade": 200, "unidade": "g" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "creme de leite fresco", "quantidade": 200, "unidade": "ml" },
+      { "item": "manteiga", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "salsinha", "quantidade": 2, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Hidrate o funghi seco em 1 xícara de água quente por 20 minutos. Escorra, reservando a água, e pique.",
+      "Derreta a manteiga e refogue a cebola por 4 minutos. Junte o paris e doure em fogo alto por 5 minutos.",
+      "Acrescente o funghi picado e metade da água de hidratação coada. Cozinhe por 5 minutos.",
+      "Adicione o creme de leite e deixe apurar 3 minutos. Acerte o sal e a pimenta.",
+      "Cozinhe o talharim al dente, misture ao molho e finalize com salsinha."
+    ],
+    "dicas": "A água da hidratação do funghi dá muito sabor; coe para tirar areia."
+  },
+  {
+    "id": "massas-012",
+    "nome": "Espaguete ao limão siciliano",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 25,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "espaguete", "quantidade": 400, "unidade": "g" },
+      { "item": "limão siciliano (raspas e suco)", "quantidade": 2, "unidade": "un" },
+      { "item": "manteiga", "quantidade": 50, "unidade": "g" },
+      { "item": "creme de leite fresco", "quantidade": 150, "unidade": "ml" },
+      { "item": "parmesão ralado", "quantidade": 60, "unidade": "g" },
+      { "item": "pimenta-do-reino", "quantidade": 1, "unidade": "pitada" }
+    ],
+    "modo_preparo": [
+      "Cozinhe o espaguete em água fervente com sal até ficar al dente. Reserve 1/2 xícara da água.",
+      "Derreta a manteiga em fogo baixo e junte as raspas de 1 limão e o creme de leite. Aqueça por 2 minutos.",
+      "Desligue o fogo, adicione o suco de 1 limão e o parmesão.",
+      "Misture a massa ao molho, afinando com a água reservada se necessário.",
+      "Finalize com pimenta e mais raspas de limão."
+    ],
+    "dicas": "Coloque o suco com o fogo desligado para o creme não talhar."
+  },
+  {
+    "id": "massas-013",
+    "nome": "Rigatoni ao molho de linguiça",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 40,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "rigatoni", "quantidade": 400, "unidade": "g" },
+      { "item": "linguiça toscana sem pele", "quantidade": 400, "unidade": "g" },
+      { "item": "molho de tomate", "quantidade": 400, "unidade": "ml" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho picados", "quantidade": 2, "unidade": "un" },
+      { "item": "pimenta calabresa", "quantidade": 1, "unidade": "colher de chá" },
+      { "item": "salsinha", "quantidade": 2, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Frite a linguiça esfarelada em fogo médio-alto até dourar (8 min).",
+      "Junte a cebola e o alho e refogue por 4 minutos.",
+      "Adicione o molho de tomate e a pimenta calabresa. Cozinhe em fogo baixo por 15 minutos.",
+      "Cozinhe o rigatoni al dente e escorra.",
+      "Misture a massa ao molho e finalize com salsinha."
+    ],
+    "dicas": "Não precisa de óleo: a linguiça solta gordura suficiente."
+  },
+  {
+    "id": "massas-014",
+    "nome": "Macarrão com camarão ao alho",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 30,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "espaguete", "quantidade": 400, "unidade": "g" },
+      { "item": "camarões médios limpos", "quantidade": 500, "unidade": "g" },
+      { "item": "dentes de alho fatiados", "quantidade": 5, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 4, "unidade": "colher de sopa" },
+      { "item": "vinho branco seco", "quantidade": 100, "unidade": "ml" },
+      { "item": "salsinha", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "limão (suco)", "quantidade": 1, "unidade": "un" }
+    ],
+    "modo_preparo": [
+      "Tempere os camarões com sal e pimenta. Cozinhe o espaguete al dente, reservando 1 xícara da água.",
+      "Aqueça o azeite em fogo médio-alto e doure os camarões por 1 minuto de cada lado. Retire e reserve.",
+      "Na mesma frigideira, doure o alho em fogo baixo por 1 minuto. Adicione o vinho e deixe reduzir pela metade (2 min).",
+      "Junte a massa e um pouco da água reservada, misturando por 1 minuto.",
+      "Volte os camarões, acrescente o limão e a salsinha e sirva."
+    ],
+    "dicas": "Camarão cozido demais fica borrachudo; ele termina de cozinhar junto com a massa."
+  },
+  {
+    "id": "massas-015",
+    "nome": "Macarrão ao molho de atum",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 25,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "espaguete ou parafuso", "quantidade": 400, "unidade": "g" },
+      { "item": "atum em lata", "quantidade": 2, "unidade": "latas de 170 g" },
+      { "item": "molho de tomate", "quantidade": 400, "unidade": "ml" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho picados", "quantidade": 2, "unidade": "un" },
+      { "item": "azeitonas picadas", "quantidade": 50, "unidade": "g" },
+      { "item": "azeite de oliva", "quantidade": 2, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Refogue a cebola e o alho no azeite por 4 minutos.",
+      "Junte o molho de tomate e cozinhe em fogo baixo por 10 minutos.",
+      "Acrescente o atum escorrido e as azeitonas. Cozinhe por mais 5 minutos.",
+      "Cozinhe a massa al dente e escorra.",
+      "Misture a massa ao molho e sirva."
+    ],
+    "dicas": "Escorra bem o atum para o molho não ficar com gosto forte de óleo."
+  },
+  {
+    "id": "massas-016",
+    "nome": "Macarrão cacio e pepe",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 20,
+    "dificuldade": "difícil",
+    "ingredientes": [
+      { "item": "espaguete", "quantidade": 400, "unidade": "g" },
+      { "item": "pecorino romano ralado fino", "quantidade": 150, "unidade": "g" },
+      { "item": "pimenta-do-reino preta em grãos", "quantidade": 2, "unidade": "colher de chá" },
+      { "item": "sal grosso para a água", "quantidade": 1, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Toste a pimenta em grãos numa frigideira seca por 1 minuto e amasse grosseiramente.",
+      "Cozinhe o espaguete em apenas 2 litros de água com sal até ficar um pouco antes do al dente (7 a 8 min). Reserve 2 xícaras da água.",
+      "Em uma tigela, misture o pecorino com 1/2 xícara da água quente até formar um creme espesso.",
+      "Termine a massa na frigideira com a pimenta e um pouco de água reservada, em fogo médio, por 1 minuto.",
+      "Desligue o fogo, junte o creme de queijo e mexa vigorosamente, acrescentando água até ficar cremoso."
+    ],
+    "dicas": "Pouca água no cozimento deixa o amido concentrado, que é o que cria o creme."
+  },
+  {
+    "id": "massas-017",
+    "nome": "Ravióli de queijo ao molho sugo",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 30,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "ravióli de queijo pronto", "quantidade": 500, "unidade": "g" },
+      { "item": "molho de tomate", "quantidade": 400, "unidade": "ml" },
+      { "item": "manteiga", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "manjericão", "quantidade": 6, "unidade": "folhas" },
+      { "item": "parmesão ralado", "quantidade": 40, "unidade": "g" }
+    ],
+    "modo_preparo": [
+      "Aqueça o molho de tomate com a manteiga em fogo baixo por 8 minutos.",
+      "Ferva bastante água com sal e cozinhe o ravióli pelo tempo da embalagem, em fervura leve para não abrir.",
+      "Retire o ravióli com escumadeira e transfira ao molho.",
+      "Misture com cuidado por 1 minuto.",
+      "Sirva com manjericão e parmesão."
+    ],
+    "dicas": "Fervura forte rasga o ravióli; mantenha a água em borbulhas suaves."
+  },
+  {
+    "id": "massas-018",
+    "nome": "Macarrão de forno com presunto e queijo",
+    "categoria": "massas",
+    "porcoes": 6,
+    "tempo_minutos": 50,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "penne", "quantidade": 500, "unidade": "g" },
+      { "item": "molho branco", "quantidade": 600, "unidade": "ml" },
+      { "item": "presunto picado", "quantidade": 200, "unidade": "g" },
+      { "item": "muçarela ralada", "quantidade": 250, "unidade": "g" },
+      { "item": "parmesão ralado", "quantidade": 50, "unidade": "g" }
+    ],
+    "modo_preparo": [
+      "Cozinhe o penne por 2 minutos a menos do que a embalagem indica e escorra.",
+      "Misture a massa com o molho branco, o presunto e metade da muçarela.",
+      "Transfira para um refratário untado e cubra com o restante da muçarela e o parmesão.",
+      "Asse em forno preaquecido a 200 °C por 20 a 25 minutos, até gratinar.",
+      "Descanse 5 minutos antes de servir."
+    ],
+    "dicas": "A massa termina de cozinhar no forno; por isso, tire antes do ponto."
+  },
+  {
+    "id": "massas-019",
+    "nome": "Espaguete com almôndegas",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 50,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "espaguete", "quantidade": 400, "unidade": "g" },
+      { "item": "carne moída", "quantidade": 500, "unidade": "g" },
+      { "item": "pão francês amolecido no leite", "quantidade": 1, "unidade": "un" },
+      { "item": "ovo", "quantidade": 1, "unidade": "un" },
+      { "item": "parmesão ralado", "quantidade": 40, "unidade": "g" },
+      { "item": "dente de alho picado", "quantidade": 1, "unidade": "un" },
+      { "item": "molho de tomate", "quantidade": 600, "unidade": "ml" }
+    ],
+    "modo_preparo": [
+      "Misture a carne, o pão espremido, o ovo, o parmesão, o alho, sal e pimenta. Amasse bem.",
+      "Modele bolinhas de 3 cm e doure em frigideira com um fio de óleo, virando até corar por todos os lados (6 a 8 min).",
+      "Transfira as almôndegas para o molho de tomate e cozinhe em fogo baixo por 20 minutos, com a panela meio tampada.",
+      "Cozinhe o espaguete al dente e escorra.",
+      "Sirva a massa com as almôndegas e o molho."
+    ],
+    "dicas": "O pão no leite deixa as almôndegas macias."
+  },
+  {
+    "id": "massas-020",
+    "nome": "Macarrão com brócolis e alho",
+    "categoria": "massas",
+    "porcoes": 4,
+    "tempo_minutos": 25,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "penne ou fusilli", "quantidade": 400, "unidade": "g" },
+      { "item": "brócolis em buquês pequenos", "quantidade": 400, "unidade": "g" },
+      { "item": "dentes de alho fatiados", "quantidade": 4, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 4, "unidade": "colher de sopa" },
+      { "item": "pimenta calabresa", "quantidade": 1, "unidade": "colher de chá" },
+      { "item": "parmesão ralado", "quantidade": 40, "unidade": "g" }
+    ],
+    "modo_preparo": [
+      "Cozinhe a massa em água fervente com sal. Nos últimos 3 minutos, acrescente o brócolis na mesma panela.",
+      "Reserve 1 xícara da água e escorra tudo.",
+      "Aqueça o azeite em fogo baixo e doure o alho por 2 minutos. Junte a pimenta.",
+      "Misture a massa e o brócolis, amassando levemente alguns buquês, e adicione água reservada para envolver.",
+      "Finalize com o parmesão."
+    ],
+    "dicas": "Cozinhar o brócolis junto com a massa economiza uma panela e dá mais sabor."
+  }
+]

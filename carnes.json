@@ -1,0 +1,490 @@
+[
+  {
+    "id": "carnes-001",
+    "nome": "Bife acebolado",
+    "categoria": "carnes",
+    "porcoes": 4,
+    "tempo_minutos": 25,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "bifes de alcatra ou contrafilé", "quantidade": 4, "unidade": "un" },
+      { "item": "cebolas grandes em rodelas", "quantidade": 3, "unidade": "un" },
+      { "item": "dentes de alho amassados", "quantidade": 3, "unidade": "un" },
+      { "item": "óleo ou manteiga", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "sal", "quantidade": 1, "unidade": "colher de chá" },
+      { "item": "pimenta-do-reino", "quantidade": 1, "unidade": "pitada" }
+    ],
+    "modo_preparo": [
+      "Tempere os bifes com alho, sal e pimenta e deixe descansar por 10 minutos fora da geladeira.",
+      "Aqueça bem uma frigideira com 1 colher de óleo. Grelhe os bifes por 2 a 3 minutos de cada lado, sem mexer. Reserve.",
+      "Na mesma frigideira, junte o restante do óleo e as cebolas. Refogue em fogo médio por 10 a 12 minutos, até ficarem macias e douradas.",
+      "Tempere as cebolas com uma pitada de sal e, se quiser, 1 colher de sopa de água para soltar os queimadinhos do fundo.",
+      "Volte os bifes à frigideira por 1 minuto e sirva cobertos com as cebolas."
+    ],
+    "dicas": "Não cubra a frigideira ao grelhar: o vapor impede a carne de dourar."
+  },
+  {
+    "id": "carnes-002",
+    "nome": "Strogonoff de carne",
+    "categoria": "carnes",
+    "porcoes": 6,
+    "tempo_minutos": 40,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "filé mignon ou alcatra em tiras", "quantidade": 700, "unidade": "g" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "champignon fatiado", "quantidade": 200, "unidade": "g" },
+      { "item": "extrato de tomate", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "ketchup", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "mostarda", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "creme de leite", "quantidade": 300, "unidade": "g" },
+      { "item": "manteiga", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "conhaque (opcional)", "quantidade": 50, "unidade": "ml" }
+    ],
+    "modo_preparo": [
+      "Tempere a carne com sal e pimenta. Frite em fogo alto, em duas levas, com 1 colher de manteiga, até dourar (3 min por leva). Reserve.",
+      "Na mesma panela, refogue a cebola na manteiga restante por 3 minutos. Junte o champignon e cozinhe por 4 minutos.",
+      "Se usar conhaque, adicione e deixe evaporar por 1 minuto.",
+      "Misture o extrato de tomate, o ketchup e a mostarda com 1/2 xícara de água. Volte a carne e cozinhe por 5 minutos.",
+      "Desligue o fogo, acrescente o creme de leite e misture sem ferver. Sirva com arroz e batata palha."
+    ],
+    "dicas": "Fritar em duas levas evita que a carne solte líquido e cozinhe em vez de dourar."
+  },
+  {
+    "id": "carnes-003",
+    "nome": "Carne de panela com batatas",
+    "categoria": "carnes",
+    "porcoes": 6,
+    "tempo_minutos": 120,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "acém ou peito em cubos grandes", "quantidade": 1, "unidade": "kg" },
+      { "item": "batatas em pedaços grandes", "quantidade": 4, "unidade": "un" },
+      { "item": "cenouras em rodelas", "quantidade": 2, "unidade": "un" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho picados", "quantidade": 4, "unidade": "un" },
+      { "item": "extrato de tomate", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "óleo", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "louro", "quantidade": 2, "unidade": "folhas" }
+    ],
+    "modo_preparo": [
+      "Tempere a carne com sal, pimenta e alho. Doure em panela de pressão com óleo bem quente, em levas, por cerca de 8 minutos no total.",
+      "Junte a cebola e refogue por 3 minutos. Acrescente o extrato de tomate e o louro.",
+      "Cubra a carne com água quente até 2 dedos acima. Tampe e cozinhe 40 minutos após pegar pressão (ou 1h30 em panela comum).",
+      "Abra a panela, junte as batatas e as cenouras e cozinhe por mais 15 minutos, sem pressão e com a panela tampada.",
+      "Acerte o sal e sirva com o caldo."
+    ],
+    "dicas": "Doure bem a carne no início: é o que dá cor e sabor ao caldo."
+  },
+  {
+    "id": "carnes-004",
+    "nome": "Almôndegas ao molho de tomate",
+    "categoria": "carnes",
+    "porcoes": 6,
+    "tempo_minutos": 50,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "carne moída", "quantidade": 600, "unidade": "g" },
+      { "item": "pão francês amolecido no leite", "quantidade": 1, "unidade": "un" },
+      { "item": "ovo", "quantidade": 1, "unidade": "un" },
+      { "item": "cebola ralada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho picados", "quantidade": 2, "unidade": "un" },
+      { "item": "cheiro-verde picado", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "molho de tomate", "quantidade": 600, "unidade": "ml" }
+    ],
+    "modo_preparo": [
+      "Esprema o pão e misture com a carne, o ovo, a cebola, o alho, o cheiro-verde, sal e pimenta até ficar homogêneo.",
+      "Modele bolinhas de 3 cm, umedecendo as mãos com água.",
+      "Doure as almôndegas em frigideira com um fio de óleo por 6 a 8 minutos, virando.",
+      "Aqueça o molho de tomate em uma panela, junte as almôndegas e cozinhe em fogo baixo, meio tampado, por 20 minutos.",
+      "Sirva com arroz ou massa."
+    ],
+    "dicas": "Não amasse demais a mistura, ou as almôndegas ficam duras."
+  },
+  {
+    "id": "carnes-005",
+    "nome": "Costela assada no forno",
+    "categoria": "carnes",
+    "porcoes": 8,
+    "tempo_minutos": 240,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "costela bovina", "quantidade": 2, "unidade": "kg" },
+      { "item": "sal grosso", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "dentes de alho amassados", "quantidade": 6, "unidade": "un" },
+      { "item": "cebola em rodelas", "quantidade": 2, "unidade": "un" },
+      { "item": "vinho tinto seco", "quantidade": 200, "unidade": "ml" },
+      { "item": "alecrim", "quantidade": 2, "unidade": "ramos" }
+    ],
+    "modo_preparo": [
+      "Tempere a costela com sal, alho e alecrim. Deixe marinar na geladeira por pelo menos 2 horas.",
+      "Forre uma assadeira com a cebola, coloque a costela com o lado dos ossos para baixo e regue com o vinho.",
+      "Cubra bem com papel-alumínio e asse a 180 °C por 3 horas.",
+      "Retire o alumínio, aumente o forno para 220 °C e asse por mais 30 a 40 minutos, até dourar.",
+      "Deixe descansar 10 minutos antes de cortar."
+    ],
+    "dicas": "A costela está no ponto quando a carne se solta do osso com facilidade."
+  },
+  {
+    "id": "carnes-006",
+    "nome": "Picadinho de carne",
+    "categoria": "carnes",
+    "porcoes": 6,
+    "tempo_minutos": 60,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "patinho ou coxão mole em cubos pequenos", "quantidade": 800, "unidade": "g" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "pimentão vermelho picado", "quantidade": 1, "unidade": "un" },
+      { "item": "tomates picados", "quantidade": 2, "unidade": "un" },
+      { "item": "dentes de alho picados", "quantidade": 3, "unidade": "un" },
+      { "item": "ervilhas", "quantidade": 100, "unidade": "g" },
+      { "item": "cheiro-verde", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Tempere a carne com sal, pimenta e alho. Doure em fogo alto, em levas, com um fio de óleo.",
+      "Junte a cebola e o pimentão e refogue por 4 minutos.",
+      "Adicione os tomates e 1 xícara de água quente. Tampe e cozinhe em fogo baixo por 35 a 40 minutos, até a carne ficar macia.",
+      "Acrescente as ervilhas e cozinhe por mais 5 minutos.",
+      "Finalize com cheiro-verde e sirva com arroz e farofa."
+    ],
+    "dicas": "Se secar demais durante o cozimento, adicione água quente aos poucos."
+  },
+  {
+    "id": "carnes-007",
+    "nome": "Bife à parmegiana",
+    "categoria": "carnes",
+    "porcoes": 4,
+    "tempo_minutos": 50,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "bifes finos de alcatra ou coxão mole", "quantidade": 4, "unidade": "un" },
+      { "item": "ovos batidos", "quantidade": 2, "unidade": "un" },
+      { "item": "farinha de rosca", "quantidade": 1, "unidade": "xícara" },
+      { "item": "molho de tomate", "quantidade": 300, "unidade": "ml" },
+      { "item": "muçarela fatiada", "quantidade": 200, "unidade": "g" },
+      { "item": "parmesão ralado", "quantidade": 40, "unidade": "g" },
+      { "item": "óleo para fritar", "quantidade": 300, "unidade": "ml" }
+    ],
+    "modo_preparo": [
+      "Bata os bifes com um martelo de carne até ficarem com 0,5 cm. Tempere com sal e pimenta.",
+      "Passe cada bife nos ovos e depois na farinha de rosca, apertando para aderir.",
+      "Frite em óleo quente por 2 minutos de cada lado, até dourar. Escorra em papel-toalha.",
+      "Disponha os bifes em um refratário, cubra com molho de tomate, muçarela e parmesão.",
+      "Leve ao forno a 200 °C por 10 a 15 minutos, até gratinar."
+    ],
+    "dicas": "Deixe a empanada descansar 5 minutos antes de fritar para não soltar."
+  },
+  {
+    "id": "carnes-008",
+    "nome": "Carne louca (carne desfiada)",
+    "categoria": "carnes",
+    "porcoes": 8,
+    "tempo_minutos": 120,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "músculo ou acém", "quantidade": 1, "unidade": "kg" },
+      { "item": "cebola grande picada", "quantidade": 1, "unidade": "un" },
+      { "item": "pimentão verde picado", "quantidade": 1, "unidade": "un" },
+      { "item": "tomates picados", "quantidade": 2, "unidade": "un" },
+      { "item": "dentes de alho", "quantidade": 4, "unidade": "un" },
+      { "item": "extrato de tomate", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "cheiro-verde", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Cozinhe a carne na panela de pressão, coberta de água com sal, por 40 minutos após pegar pressão. Reserve 2 xícaras do caldo.",
+      "Desfie a carne ainda morna com dois garfos.",
+      "Refogue a cebola, o alho e o pimentão em um fio de óleo por 5 minutos. Junte os tomates e o extrato.",
+      "Adicione a carne desfiada e o caldo reservado. Cozinhe em fogo médio por 15 minutos, até secar um pouco.",
+      "Finalize com cheiro-verde. Sirva em sanduíches ou com arroz."
+    ],
+    "dicas": "Congela muito bem em porções, por até 3 meses."
+  },
+  {
+    "id": "carnes-009",
+    "nome": "Filé mignon ao molho madeira",
+    "categoria": "carnes",
+    "porcoes": 4,
+    "tempo_minutos": 35,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "medalhões de filé mignon", "quantidade": 4, "unidade": "un de 150 g" },
+      { "item": "manteiga", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "champignon fatiado", "quantidade": 150, "unidade": "g" },
+      { "item": "vinho madeira ou vinho tinto", "quantidade": 150, "unidade": "ml" },
+      { "item": "caldo de carne", "quantidade": 300, "unidade": "ml" },
+      { "item": "amido de milho dissolvido em água", "quantidade": 1, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Tempere os medalhões com sal e pimenta. Doure em frigideira bem quente com 1 colher de manteiga, 3 minutos de cada lado para o ponto médio. Reserve.",
+      "Na mesma frigideira, refogue a cebola e o champignon por 5 minutos.",
+      "Adicione o vinho e deixe reduzir pela metade (3 min), raspando o fundo.",
+      "Junte o caldo e o amido dissolvido. Cozinhe até engrossar levemente (3 min). Finalize com a manteiga restante.",
+      "Sirva os medalhões com o molho por cima."
+    ],
+    "dicas": "Descanse a carne 3 minutos antes de servir para os sucos se distribuírem."
+  },
+  {
+    "id": "carnes-010",
+    "nome": "Hambúrguer caseiro",
+    "categoria": "carnes",
+    "porcoes": 4,
+    "tempo_minutos": 30,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "carne moída (patinho com um pouco de gordura)", "quantidade": 600, "unidade": "g" },
+      { "item": "sal", "quantidade": 1, "unidade": "colher de chá" },
+      { "item": "pimenta-do-reino", "quantidade": 1, "unidade": "pitada" },
+      { "item": "pães de hambúrguer", "quantidade": 4, "unidade": "un" },
+      { "item": "queijo fatiado", "quantidade": 4, "unidade": "fatias" },
+      { "item": "alface e tomate", "quantidade": 1, "unidade": "porção" }
+    ],
+    "modo_preparo": [
+      "Divida a carne em 4 porções e modele discos de 2 cm de espessura, fazendo uma leve cova no centro.",
+      "Leve à geladeira por 15 minutos.",
+      "Tempere apenas por fora com sal e pimenta, imediatamente antes de grelhar.",
+      "Grelhe em frigideira ou chapa bem quente por 3 a 4 minutos de cada lado. Coloque o queijo no último minuto e tampe.",
+      "Toste os pães e monte com os demais ingredientes."
+    ],
+    "dicas": "Não pressione o hambúrguer na chapa, para não perder o suco."
+  },
+  {
+    "id": "carnes-011",
+    "nome": "Lombo de porco assado",
+    "categoria": "carnes",
+    "porcoes": 8,
+    "tempo_minutos": 120,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "lombo suíno", "quantidade": 1.5, "unidade": "kg" },
+      { "item": "dentes de alho amassados", "quantidade": 5, "unidade": "un" },
+      { "item": "suco de limão", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "mostarda", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "alecrim", "quantidade": 2, "unidade": "ramos" },
+      { "item": "azeite de oliva", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "sal", "quantidade": 2, "unidade": "colher de chá" }
+    ],
+    "modo_preparo": [
+      "Misture o alho, o limão, a mostarda, o azeite, o sal e o alecrim. Esfregue no lombo e deixe marinar por 2 horas na geladeira.",
+      "Tire da geladeira 30 minutos antes de assar.",
+      "Asse a 180 °C, coberto com alumínio, por 1h15.",
+      "Retire o alumínio e asse por mais 20 a 30 minutos, regando com o molho da assadeira, até dourar. A temperatura interna deve chegar a 70 °C.",
+      "Descanse por 15 minutos antes de fatiar."
+    ],
+    "dicas": "Um termômetro de carne evita que o lombo fique seco."
+  },
+  {
+    "id": "carnes-012",
+    "nome": "Bife rolê",
+    "categoria": "carnes",
+    "porcoes": 6,
+    "tempo_minutos": 90,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "bifes finos de coxão mole", "quantidade": 6, "unidade": "un" },
+      { "item": "presunto", "quantidade": 6, "unidade": "fatias" },
+      { "item": "muçarela", "quantidade": 6, "unidade": "fatias" },
+      { "item": "cenoura em palitos", "quantidade": 1, "unidade": "un" },
+      { "item": "molho de tomate", "quantidade": 500, "unidade": "ml" },
+      { "item": "palitos de dente", "quantidade": 12, "unidade": "un" }
+    ],
+    "modo_preparo": [
+      "Bata os bifes até afinarem e tempere com sal, pimenta e alho.",
+      "Sobre cada bife, coloque 1 fatia de presunto, 1 de muçarela e palitos de cenoura. Enrole e feche com palitos.",
+      "Doure os rolês em panela com um fio de óleo, virando, por 6 a 8 minutos.",
+      "Cubra com o molho de tomate e 1/2 xícara de água. Tampe e cozinhe em fogo baixo por 40 a 50 minutos.",
+      "Retire os palitos antes de servir."
+    ],
+    "dicas": "Cozinhe em fogo baixo para a carne amaciar sem ressecar."
+  },
+  {
+    "id": "carnes-013",
+    "nome": "Carne de sol com mandioca",
+    "categoria": "carnes",
+    "porcoes": 6,
+    "tempo_minutos": 90,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "carne de sol", "quantidade": 800, "unidade": "g" },
+      { "item": "mandioca descascada em pedaços", "quantidade": 1, "unidade": "kg" },
+      { "item": "cebola em rodelas", "quantidade": 2, "unidade": "un" },
+      { "item": "manteiga de garrafa", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "coentro picado", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Dessalgue a carne de sol em água fria por 2 horas, trocando a água a cada 30 minutos.",
+      "Cozinhe a carne na pressão por 25 minutos. Escorra e desfie em pedaços grandes.",
+      "Cozinhe a mandioca em água com sal por 25 a 30 minutos, até ficar macia. Escorra.",
+      "Aqueça a manteiga de garrafa, doure a cebola por 5 minutos e junte a carne. Frite por 5 minutos até dourar.",
+      "Sirva com a mandioca e o coentro."
+    ],
+    "dicas": "Prove a carne antes de salgar: ela costuma manter bastante sal."
+  },
+  {
+    "id": "carnes-014",
+    "nome": "Churrasco de panela (contrafilé grelhado)",
+    "categoria": "carnes",
+    "porcoes": 4,
+    "tempo_minutos": 20,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "contrafilé em bifes grossos", "quantidade": 800, "unidade": "g" },
+      { "item": "sal grosso", "quantidade": 1, "unidade": "colher de chá" },
+      { "item": "manteiga", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "alho em dentes inteiros amassados", "quantidade": 2, "unidade": "un" },
+      { "item": "tomilho", "quantidade": 2, "unidade": "ramos" }
+    ],
+    "modo_preparo": [
+      "Deixe a carne fora da geladeira por 30 minutos e seque com papel-toalha.",
+      "Aqueça uma frigideira de ferro até soltar fumaça. Salgue a carne só na hora de grelhar.",
+      "Sele por 3 a 4 minutos de cada lado, sem mexer, para o ponto entre mal passado e ao ponto.",
+      "No último minuto, junte a manteiga, o alho e o tomilho e regue a carne com a manteiga.",
+      "Descanse 5 minutos antes de fatiar."
+    ],
+    "dicas": "Secar bem a carne é o que garante a crosta dourada."
+  },
+  {
+    "id": "carnes-015",
+    "nome": "Escondidinho de carne seca",
+    "categoria": "carnes",
+    "porcoes": 8,
+    "tempo_minutos": 90,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "carne seca dessalgada", "quantidade": 500, "unidade": "g" },
+      { "item": "mandioca cozida", "quantidade": 1, "unidade": "kg" },
+      { "item": "manteiga", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "leite", "quantidade": 150, "unidade": "ml" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho", "quantidade": 3, "unidade": "un" },
+      { "item": "queijo coalho ou muçarela ralada", "quantidade": 200, "unidade": "g" }
+    ],
+    "modo_preparo": [
+      "Cozinhe a carne seca na pressão por 30 minutos após pegar pressão. Escorra e desfie.",
+      "Amasse a mandioca cozida ainda quente com 2 colheres de manteiga e o leite até virar um purê liso. Tempere com sal.",
+      "Refogue a cebola e o alho na manteiga restante e junte a carne desfiada. Cozinhe por 5 minutos.",
+      "Em um refratário, espalhe a carne e cubra com o purê. Finalize com o queijo.",
+      "Asse a 200 °C por 20 minutos, até gratinar."
+    ],
+    "dicas": "Remova o fio central da mandioca para o purê ficar sedoso."
+  },
+  {
+    "id": "carnes-016",
+    "nome": "Cupim assado na panela de pressão",
+    "categoria": "carnes",
+    "porcoes": 8,
+    "tempo_minutos": 150,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "cupim", "quantidade": 1.5, "unidade": "kg" },
+      { "item": "sal grosso", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "cebolas em rodelas", "quantidade": 2, "unidade": "un" },
+      { "item": "dentes de alho", "quantidade": 5, "unidade": "un" },
+      { "item": "cerveja escura", "quantidade": 350, "unidade": "ml" },
+      { "item": "louro", "quantidade": 2, "unidade": "folhas" }
+    ],
+    "modo_preparo": [
+      "Tempere o cupim com sal e alho e deixe descansar por 1 hora.",
+      "Doure a peça em panela de pressão por todos os lados, 10 minutos no total.",
+      "Junte as cebolas, o louro e a cerveja. Tampe e cozinhe por 1 hora após pegar pressão.",
+      "Deixe a pressão sair sozinha, abra e retire a peça.",
+      "Se quiser, doure em forno a 220 °C por 10 minutos. Fatie e regue com o molho."
+    ],
+    "dicas": "Fatie contra as fibras, com a gordura voltada para cima."
+  },
+  {
+    "id": "carnes-017",
+    "nome": "Bife de fígado acebolado",
+    "categoria": "carnes",
+    "porcoes": 4,
+    "tempo_minutos": 25,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "bifes de fígado bovino", "quantidade": 500, "unidade": "g" },
+      { "item": "leite para marinar", "quantidade": 300, "unidade": "ml" },
+      { "item": "cebolas em rodelas", "quantidade": 2, "unidade": "un" },
+      { "item": "limão (suco)", "quantidade": 1, "unidade": "un" },
+      { "item": "óleo", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "salsinha", "quantidade": 2, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Deixe o fígado no leite por 30 minutos. Escorra e seque.",
+      "Doure a cebola no óleo por 8 minutos. Reserve.",
+      "Na mesma frigideira bem quente, grelhe o fígado por 1 a 2 minutos de cada lado. Salgue ao final.",
+      "Volte a cebola, regue com limão e sirva com salsinha."
+    ],
+    "dicas": "Cozinhar demais deixa o fígado duro e amargo; 2 minutos por lado bastam."
+  },
+  {
+    "id": "carnes-018",
+    "nome": "Espetinho de carne",
+    "categoria": "carnes",
+    "porcoes": 6,
+    "tempo_minutos": 40,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "alcatra em cubos de 3 cm", "quantidade": 800, "unidade": "g" },
+      { "item": "pimentão vermelho em cubos", "quantidade": 1, "unidade": "un" },
+      { "item": "cebola em pedaços", "quantidade": 2, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "orégano", "quantidade": 1, "unidade": "colher de chá" },
+      { "item": "espetos de madeira", "quantidade": 12, "unidade": "un" }
+    ],
+    "modo_preparo": [
+      "Deixe os espetos de madeira de molho em água por 30 minutos.",
+      "Tempere a carne com azeite, sal, pimenta e orégano.",
+      "Monte os espetos alternando carne, pimentão e cebola.",
+      "Grelhe em fogo alto por 8 a 10 minutos, virando a cada 2 a 3 minutos."
+    ],
+    "dicas": "O molho em água evita que os espetos queimem."
+  },
+  {
+    "id": "carnes-019",
+    "nome": "Carne moída com legumes",
+    "categoria": "carnes",
+    "porcoes": 4,
+    "tempo_minutos": 35,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "carne moída", "quantidade": 500, "unidade": "g" },
+      { "item": "cenoura em cubos", "quantidade": 1, "unidade": "un" },
+      { "item": "batata em cubos", "quantidade": 1, "unidade": "un" },
+      { "item": "vagem picada", "quantidade": 100, "unidade": "g" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho", "quantidade": 2, "unidade": "un" },
+      { "item": "molho de tomate", "quantidade": 200, "unidade": "ml" }
+    ],
+    "modo_preparo": [
+      "Refogue a cebola e o alho em um fio de óleo por 3 minutos.",
+      "Junte a carne e frite mexendo até dourar (8 min).",
+      "Acrescente a cenoura, a batata e a vagem, o molho de tomate e 1/2 xícara de água.",
+      "Tampe e cozinhe em fogo baixo por 15 a 20 minutos, até os legumes ficarem macios.",
+      "Acerte o sal e sirva."
+    ],
+    "dicas": "Corte os legumes em pedaços do mesmo tamanho para cozinharem juntos."
+  },
+  {
+    "id": "carnes-020",
+    "nome": "Maminha assada",
+    "categoria": "carnes",
+    "porcoes": 8,
+    "tempo_minutos": 90,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "maminha", "quantidade": 1.2, "unidade": "kg" },
+      { "item": "sal grosso", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "dentes de alho amassados", "quantidade": 4, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "pimenta-do-reino", "quantidade": 1, "unidade": "colher de chá" }
+    ],
+    "modo_preparo": [
+      "Tempere a maminha com sal, alho, pimenta e azeite. Deixe marinar por 1 hora fora da geladeira.",
+      "Sele a peça em frigideira bem quente por 2 minutos de cada lado.",
+      "Transfira para uma assadeira e cubra com alumínio. Asse a 200 °C por 40 a 50 minutos para o ponto ao ponto.",
+      "Retire o alumínio e deixe dourar por 10 minutos.",
+      "Descanse 10 minutos e fatie contra as fibras."
+    ],
+    "dicas": "Para um ponto mais passado, acrescente 10 minutos no forno."
+  }
+]

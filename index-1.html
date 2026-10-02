@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Receitas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f7f3;
+    --surface: #ffffff;
+    --ink: #1c2822;
+    --muted: #5d6b63;
+    --line: #dde3dc;
+    --accent: #2c6a55;
+    --accent-ink: #ffffff;
+    --mark: #f2c94c;
+    --serif: "Newsreader", Georgia, "Times New Roman", serif;
+    --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    box-sizing: border-box;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121a16;
+      --surface: #1a241f;
+      --ink: #e9efe9;
+      --muted: #9fada5;
+      --line: #2b3830;
+      --accent: #6fc3a4;
+      --accent-ink: #0d1612;
+      --mark: #a9892a;
+    }
+  }
+  *, *::before, *::after { box-sizing: inherit; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  a, button, input, select { font: inherit; color: inherit; }
+  :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+
+  header.top { padding: 32px 0 16px; }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: clamp(2rem, 6vw, 3rem);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    margin: 0 0 6px;
+  }
+  .sub { color: var(--muted); margin: 0 0 20px; }
+
+  .search {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1.5px solid var(--line);
+    border-radius: 10px;
+    background: var(--surface);
+  }
+  .search:focus-visible { border-color: var(--accent); outline-offset: 0; }
+
+  .filters {
+    position: sticky;
+    top: env(safe-area-inset-top, 0px);
+    z-index: 5;
+    background: var(--bg);
+    padding: 12px 0;
+    margin-top: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  .chips { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: thin; }
+  .chip {
+    flex: none;
+    border: 1.5px solid var(--line);
+    background: var(--surface);
+    padding: 7px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  .chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .count { color: var(--muted); font-size: 0.9rem; margin: 14px 0 4px; }
+
+  ul.list { list-style: none; margin: 0; padding: 0; }
+  .row {
+    display: grid;
+    grid-template-columns: 4px 1fr;
+    gap: 14px;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid var(--line);
+    padding: 16px 0;
+    cursor: pointer;
+  }
+  .row:hover .name { color: var(--accent); }
+  .bar { border-radius: 2px; background: var(--accent); }
+  .name { font-family: var(--serif); font-size: 1.3rem; font-weight: 500; line-height: 1.2; margin: 0; }
+  .meta { color: var(--muted); font-size: 0.88rem; margin-top: 4px; }
+  mark { background: var(--mark); color: inherit; border-radius: 2px; padding: 0 1px; }
+
+  .empty { padding: 40px 0; color: var(--muted); }
+  .more { display: block; margin: 24px auto 48px; padding: 12px 22px; border: 1.5px solid var(--accent); background: none; border-radius: 10px; cursor: pointer; color: var(--accent); font-weight: 600; }
+
+  dialog {
+    width: min(720px, 100%);
+    max-height: 100dvh;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    border-radius: 14px;
+    background: var(--surface);
+    color: var(--ink);
+  }
+  dialog::backdrop { background: rgba(10, 16, 13, 0.55); }
+  .sheet { padding: 24px 22px 32px; padding-bottom: calc(32px + env(safe-area-inset-bottom, 0px)); }
+  .close { float: right; border: 1.5px solid var(--line); background: none; border-radius: 8px; padding: 6px 12px; cursor: pointer; }
+  .sheet h2 { font-family: var(--serif); font-size: 2rem; line-height: 1.1; margin: 0 0 8px; padding-right: 70px; }
+  .facts { display: flex; flex-wrap: wrap; gap: 6px 18px; color: var(--muted); font-size: 0.92rem; margin-bottom: 20px; }
+  .sheet h3 { font-family: var(--serif); font-size: 1.35rem; margin: 26px 0 10px; }
+  .servings { display: inline-flex; align-items: center; gap: 10px; margin-left: 12px; font-family: var(--sans); font-size: 0.95rem; font-weight: 500; }
+  .servings button { width: 34px; height: 34px; border-radius: 50%; border: 1.5px solid var(--line); background: none; cursor: pointer; font-size: 1.1rem; line-height: 1; }
+  ul.ing { list-style: none; margin: 0; padding: 0; }
+  ul.ing li { padding: 8px 0; border-bottom: 1px dashed var(--line); }
+  ul.ing b { font-weight: 600; }
+  ol.steps { margin: 0; padding-left: 1.4em; }
+  ol.steps li { margin-bottom: 12px; padding-left: 4px; max-width: 62ch; }
+  ol.steps li::marker { color: var(--accent); font-weight: 600; }
+  .tip { border-left: 4px solid var(--mark); padding: 6px 14px; max-width: 62ch; margin: 0; }
+
+  .error { background: var(--surface); border: 1.5px solid var(--line); border-radius: 10px; padding: 16px; margin: 20px 0; }
+  .error code { background: var(--bg); padding: 2px 6px; border-radius: 4px; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    dialog[open] { animation: rise 0.18s ease-out; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  }
+  @media (max-width: 600px) {
+    dialog { height: 100dvh; border-radius: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>Receitas</h1>
+    <p class="sub" id="sub">Carregando receitas…</p>
+    <label class="visually-hidden" for="q" style="position:absolute;left:-9999px">Buscar</label>
+    <input id="q" class="search" type="search" placeholder="Busque por nome ou ingrediente" autocomplete="off">
+  </header>
+
+  <div class="filters"><div class="chips" id="chips" role="group" aria-label="Categorias"></div></div>
+
+  <div class="count" id="count" aria-live="polite"></div>
+  <div id="error"></div>
+  <ul class="list" id="list"></ul>
+  <button class="more" id="more" hidden>Mostrar mais receitas</button>
+</div>
+
+<dialog id="dlg" aria-labelledby="dlg-title"><div class="sheet" id="sheet"></div></dialog>
+
+<script>
+  // Para adicionar um novo lote, coloque o JSON em /data e inclua o nome do arquivo aqui.
+  const FILES = [
+    "massas.json",
+    "carnes.json",
+    "peixes-frutos-do-mar.json",
+    "aves-01.json",
+    "aves-02.json"
+  ];
+
+  const CATEGORIES = {
+    "massas": "Massas",
+    "carnes": "Carnes",
+    "peixes-frutos-do-mar": "Peixes e frutos do mar",
+    "aves": "Aves",
+    "sobremesas": "Sobremesas"
+  };
+
+  const PAGE = 40;
+  let all = [], filtered = [], shown = PAGE, category = "todas", query = "", current = null, servings = 0;
+
+  const $ = (id) => document.getElementById(id);
+  const norm = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const catName = (c) => CATEGORIES[c] || c;
+
+  function highlight(text, q) {
+    const safe = esc(text);
+    if (!q) return safe;
+    const n = norm(text), i = n.indexOf(q);
+    if (i < 0) return safe;
+    // normalização NFD pode alterar tamanho; só destaca se os comprimentos baterem
+    if (norm(text).length !== text.length) return safe;
+    return esc(text.slice(0, i)) + "<mark>" + esc(text.slice(i, i + q.length)) + "</mark>" + esc(text.slice(i + q.length));
+  }
+
+  async function load() {
+    const results = await Promise.allSettled(FILES.map((f) => fetch("data/" + f).then((r) => {
+      if (!r.ok) throw new Error(f + ": " + r.status);
+      return r.json();
+    })));
+    const failed = [];
+    const seen = new Set();
+    results.forEach((r, i) => {
+      if (r.status === "fulfilled") {
+        r.value.forEach((rec) => { if (!seen.has(rec.id)) { seen.add(rec.id); all.push(rec); } });
+      } else failed.push(FILES[i]);
+    });
+    if (failed.length) {
+      $("error").innerHTML = '<div class="error"><b>Alguns arquivos não carregaram:</b> ' + failed.map(esc).join(", ") +
+        '.<br>Confirme que estão na pasta <code>data/</code>. Se abriu o <code>index.html</code> direto do computador, publique no GitHub/Vercel ou rode <code>npx serve</code> na pasta do projeto.</div>';
+    }
+    all.forEach((r) => {
+      r._search = norm(r.nome + " " + r.ingredientes.map((i) => i.item).join(" "));
+    });
+    $("sub").textContent = all.length + " receitas com ingredientes e modo de preparo";
+    buildChips();
+    applyFilters();
+    openFromHash();
+  }
+
+  function buildChips() {
+    const counts = {};
+    all.forEach((r) => { counts[r.categoria] = (counts[r.categoria] || 0) + 1; });
+    const items = [["todas", "Todas (" + all.length + ")"]].concat(
+      Object.keys(counts).map((c) => [c, catName(c) + " (" + counts[c] + ")"])
+    );
+    $("chips").innerHTML = items.map(([k, label]) =>
+      '<button class="chip" data-cat="' + esc(k) + '" aria-pressed="' + (k === category) + '">' + esc(label) + "</button>").join("");
+  }
+
+  function applyFilters() {
+    const q = norm(query.trim());
+    filtered = all.filter((r) => (category === "todas" || r.categoria === category) && (!q || r._search.includes(q)));
+    shown = PAGE;
+    render();
+  }
+
+  function render() {
+    const q = norm(query.trim());
+    const slice = filtered.slice(0, shown);
+    $("list").innerHTML = slice.map((r) =>
+      '<li><button class="row" data-id="' + esc(r.id) + '"><span class="bar"></span><span>' +
+      '<h2 class="name">' + highlight(r.nome, q) + "</h2>" +
+      '<div class="meta">' + esc(catName(r.categoria)) + " · " + r.tempo_minutos + " min · " + r.porcoes + " porções · " + esc(r.dificuldade) + "</div>" +
+      "</span></button></li>").join("");
+    $("count").textContent = filtered.length === 1 ? "1 receita" : filtered.length + " receitas";
+    if (!filtered.length && all.length) {
+      $("list").innerHTML = '<li class="empty">Nenhuma receita encontrada. Tente outro nome, ingrediente ou categoria.</li>';
+    }
+    $("more").hidden = shown >= filtered.length;
+  }
+
+  function fmtQty(n) {
+    if (!isFinite(n)) return "";
+    const whole = Math.floor(n + 1e-9);
+    const frac = n - whole;
+    const map = [[0, ""], [0.25, "¼"], [0.33, "⅓"], [0.5, "½"], [0.66, "⅔"], [0.75, "¾"], [1, ""]];
+    for (const [v, sym] of map) {
+      if (Math.abs(frac - v) < 0.04) {
+        const w = v === 1 ? whole + 1 : whole;
+        return (w ? w : "") + (w && sym ? " " : "") + sym || "0";
+      }
+    }
+    return String(Math.round(n * 10) / 10).replace(".", ",");
+  }
+
+  function ingLine(i, mult) {
+    const q = fmtQty(i.quantidade * mult);
+    let amount;
+    if (i.unidade === "un") amount = q;
+    else if (/^un de /.test(i.unidade)) amount = q + "× (" + i.unidade.replace(/^un de /, "") + " cada)";
+    else amount = q + " " + i.unidade;
+    return "<li><b>" + esc(amount) + "</b> " + esc(i.item) + "</li>";
+  }
+
+  function openRecipe(id, pushHash) {
+    const r = all.find((x) => x.id === id);
+    if (!r) return;
+    current = r;
+    servings = r.porcoes;
+    drawSheet();
+    if (pushHash) history.replaceState(null, "", "#" + id);
+    if (!$("dlg").open) $("dlg").showModal();
+    $("dlg").scrollTop = 0;
+  }
+
+  function drawSheet() {
+    const r = current, mult = servings / r.porcoes;
+    $("sheet").innerHTML =
+      '<button class="close" id="close">Fechar</button>' +
+      '<h2 id="dlg-title">' + esc(r.nome) + "</h2>" +
+      '<div class="facts"><span>' + esc(catName(r.categoria)) + "</span><span>" + r.tempo_minutos + " min</span><span>Dificuldade " + esc(r.dificuldade) + "</span></div>" +
+      '<h3>Ingredientes <span class="servings"><button id="minus" aria-label="Menos uma porção">−</button><span id="srv">' + servings + ' porções</span><button id="plus" aria-label="Mais uma porção">+</button></span></h3>' +
+      '<ul class="ing">' + r.ingredientes.map((i) => ingLine(i, mult)).join("") + "</ul>" +
+      "<h3>Modo de preparo</h3>" +
+      '<ol class="steps">' + r.modo_preparo.map((s) => "<li>" + esc(s) + "</li>").join("") + "</ol>" +
+      (r.dicas ? '<h3>Dica</h3><p class="tip">' + esc(r.dicas) + "</p>" : "");
+  }
+
+  function openFromHash() {
+    const id = location.hash.slice(1);
+    if (id) openRecipe(id, false);
+  }
+
+  $("q").addEventListener("input", (e) => { query = e.target.value; applyFilters(); });
+  $("chips").addEventListener("click", (e) => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    category = b.dataset.cat;
+    document.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c === b));
+    applyFilters();
+  });
+  $("list").addEventListener("click", (e) => {
+    const b = e.target.closest(".row"); if (b) openRecipe(b.dataset.id, true);
+  });
+  $("more").addEventListener("click", () => { shown += PAGE; render(); });
+  $("sheet").addEventListener("click", (e) => {
+    if (e.target.id === "close") $("dlg").close();
+    if (e.target.id === "plus") { servings += 1; drawSheet(); $("plus").focus(); }
+    if (e.target.id === "minus" && servings > 1) { servings -= 1; drawSheet(); $("minus").focus(); }
+  });
+  $("dlg").addEventListener("click", (e) => { if (e.target === $("dlg")) $("dlg").close(); });
+  $("dlg").addEventListener("close", () => history.replaceState(null, "", location.pathname + location.search));
+  window.addEventListener("hashchange", openFromHash);
+
+  load().catch((err) => {
+    $("sub").textContent = "Não foi possível carregar as receitas.";
+    $("error").innerHTML = '<div class="error">' + esc(err.message) + "</div>";
+  });
+</script>
+</body>
+</html>

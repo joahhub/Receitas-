@@ -1,0 +1,483 @@
+[
+  {
+    "id": "peixes-001",
+    "nome": "Moqueca capixaba de peixe",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 4,
+    "tempo_minutos": 45,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "postas de peixe firme (robalo, badejo ou cação)", "quantidade": 800, "unidade": "g" },
+      { "item": "limão (suco)", "quantidade": 2, "unidade": "un" },
+      { "item": "tomates em rodelas", "quantidade": 3, "unidade": "un" },
+      { "item": "cebola em rodelas", "quantidade": 2, "unidade": "un" },
+      { "item": "pimentão vermelho em tiras", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho picados", "quantidade": 3, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "urucum em pó", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "coentro picado", "quantidade": 4, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Tempere o peixe com suco de limão, alho e sal. Deixe por 20 minutos.",
+      "Em uma panela larga, regue o azeite e faça camadas de cebola, tomate, pimentão e peixe. Repita.",
+      "Polvilhe o urucum e o coentro, adicione 1/2 xícara de água e tampe.",
+      "Cozinhe em fogo baixo por 15 a 20 minutos, sem mexer, apenas balançando a panela.",
+      "Sirva com arroz branco e pirão."
+    ],
+    "dicas": "Não mexa com colher: o peixe se desmancha."
+  },
+  {
+    "id": "peixes-002",
+    "nome": "Moqueca baiana de camarão",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 4,
+    "tempo_minutos": 40,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "camarões médios limpos", "quantidade": 700, "unidade": "g" },
+      { "item": "leite de coco", "quantidade": 400, "unidade": "ml" },
+      { "item": "azeite de dendê", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "pimentão vermelho e verde em tiras", "quantidade": 2, "unidade": "un" },
+      { "item": "tomates picados", "quantidade": 2, "unidade": "un" },
+      { "item": "pimenta dedo-de-moça", "quantidade": 1, "unidade": "un" },
+      { "item": "coentro picado", "quantidade": 4, "unidade": "colher de sopa" },
+      { "item": "limão (suco)", "quantidade": 1, "unidade": "un" }
+    ],
+    "modo_preparo": [
+      "Tempere os camarões com limão, sal e alho. Deixe por 15 minutos.",
+      "Refogue a cebola, os pimentões e a pimenta em azeite de dendê por 5 minutos.",
+      "Junte os tomates e cozinhe por 5 minutos. Acrescente o leite de coco e deixe ferver suavemente por 5 minutos.",
+      "Adicione os camarões e cozinhe por 4 a 5 minutos, até ficarem rosados.",
+      "Finalize com coentro e sirva com arroz."
+    ],
+    "dicas": "Camarão cozido demais fica borrachudo: 5 minutos bastam."
+  },
+  {
+    "id": "peixes-003",
+    "nome": "Tilápia grelhada com limão",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 4,
+    "tempo_minutos": 20,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "filés de tilápia", "quantidade": 4, "unidade": "un" },
+      { "item": "limão (suco)", "quantidade": 2, "unidade": "un" },
+      { "item": "dentes de alho amassados", "quantidade": 2, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "salsinha picada", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "sal", "quantidade": 1, "unidade": "colher de chá" }
+    ],
+    "modo_preparo": [
+      "Tempere os filés com limão, alho e sal por 10 minutos.",
+      "Seque levemente com papel-toalha e aqueça bem uma frigideira com o azeite.",
+      "Grelhe os filés por 3 a 4 minutos de cada lado, virando uma única vez.",
+      "Finalize com salsinha e um fio de azeite."
+    ],
+    "dicas": "Só vire o peixe quando ele soltar da frigideira sem esforço."
+  },
+  {
+    "id": "peixes-004",
+    "nome": "Salmão assado com ervas",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 4,
+    "tempo_minutos": 30,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "filés de salmão", "quantidade": 4, "unidade": "un de 180 g" },
+      { "item": "azeite de oliva", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "limão siciliano (suco e fatias)", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho picados", "quantidade": 2, "unidade": "un" },
+      { "item": "endro ou tomilho", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "sal e pimenta-do-reino", "quantidade": 1, "unidade": "pitada" }
+    ],
+    "modo_preparo": [
+      "Preaqueça o forno a 200 °C.",
+      "Misture o azeite, o suco de limão, o alho e as ervas. Tempere o salmão com sal e pimenta e pincele a mistura.",
+      "Coloque em assadeira forrada com papel-manteiga, com a pele para baixo, e cubra com fatias de limão.",
+      "Asse por 12 a 15 minutos, até o centro ficar rosado e se separar em lascas."
+    ],
+    "dicas": "Retire quando ainda estiver levemente translúcido no centro; o calor residual termina o cozimento."
+  },
+  {
+    "id": "peixes-005",
+    "nome": "Bacalhau à Gomes de Sá",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 6,
+    "tempo_minutos": 75,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "bacalhau dessalgado em lascas", "quantidade": 800, "unidade": "g" },
+      { "item": "batatas cozidas em rodelas", "quantidade": 800, "unidade": "g" },
+      { "item": "cebolas em rodelas", "quantidade": 3, "unidade": "un" },
+      { "item": "dentes de alho", "quantidade": 3, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 150, "unidade": "ml" },
+      { "item": "ovos cozidos", "quantidade": 3, "unidade": "un" },
+      { "item": "azeitonas pretas", "quantidade": 12, "unidade": "un" },
+      { "item": "leite", "quantidade": 300, "unidade": "ml" }
+    ],
+    "modo_preparo": [
+      "Deixe o bacalhau de molho em leite por 1 hora. Escorra e seque.",
+      "Doure a cebola e o alho no azeite em fogo baixo por 15 minutos, até ficarem macios e dourados.",
+      "Acrescente o bacalhau e cozinhe por 5 minutos, desmanchando as lascas.",
+      "Em um refratário, alterne camadas de batata e bacalhau com cebola. Regue com o azeite da panela.",
+      "Leve ao forno a 200 °C por 20 minutos. Decore com ovos cozidos, azeitonas e salsinha."
+    ],
+    "dicas": "O bacalhau precisa ser dessalgado por 24 a 48 horas, com a água trocada 4 a 5 vezes."
+  },
+  {
+    "id": "peixes-006",
+    "nome": "Camarão na moranga",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 6,
+    "tempo_minutos": 90,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "moranga pequena (abóbora cabotiá)", "quantidade": 1, "unidade": "un de 2 kg" },
+      { "item": "camarões médios limpos", "quantidade": 700, "unidade": "g" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho", "quantidade": 3, "unidade": "un" },
+      { "item": "tomate picado", "quantidade": 2, "unidade": "un" },
+      { "item": "requeijão cremoso", "quantidade": 250, "unidade": "g" },
+      { "item": "creme de leite", "quantidade": 200, "unidade": "g" },
+      { "item": "cheiro-verde", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Corte a tampa da moranga, retire as sementes e cozinhe a abóbora inteira no forno a 200 °C por 40 minutos, até ficar macia mas firme.",
+      "Refogue a cebola e o alho no azeite por 4 minutos. Junte os camarões e frite por 3 minutos.",
+      "Adicione o tomate e cozinhe por 3 minutos. Acrescente o requeijão e o creme de leite e misture.",
+      "Recheie a moranga com o creme de camarão, tampe e leve ao forno por mais 15 minutos.",
+      "Sirva com arroz branco."
+    ],
+    "dicas": "Não cozinhe demais a moranga, ou ela desmancha ao servir."
+  },
+  {
+    "id": "peixes-007",
+    "nome": "Peixe frito empanado",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 4,
+    "tempo_minutos": 30,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "filés de peixe branco (pescada, merluza)", "quantidade": 600, "unidade": "g" },
+      { "item": "limão (suco)", "quantidade": 1, "unidade": "un" },
+      { "item": "farinha de trigo", "quantidade": 1, "unidade": "xícara" },
+      { "item": "ovos batidos", "quantidade": 2, "unidade": "un" },
+      { "item": "farinha de rosca", "quantidade": 1, "unidade": "xícara" },
+      { "item": "óleo para fritar", "quantidade": 500, "unidade": "ml" }
+    ],
+    "modo_preparo": [
+      "Tempere o peixe com limão, sal e pimenta por 10 minutos.",
+      "Passe cada filé na farinha de trigo, nos ovos e na farinha de rosca.",
+      "Aqueça o óleo a 180 °C e frite 2 a 3 minutos de cada lado, até dourar.",
+      "Escorra em papel-toalha e sirva com limão."
+    ],
+    "dicas": "Frite poucos filés por vez para o óleo não esfriar."
+  },
+  {
+    "id": "peixes-008",
+    "nome": "Risoto de camarão",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 4,
+    "tempo_minutos": 45,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "arroz arbóreo", "quantidade": 300, "unidade": "g" },
+      { "item": "camarões limpos", "quantidade": 400, "unidade": "g" },
+      { "item": "caldo de legumes ou de peixe quente", "quantidade": 1, "unidade": "litro" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "vinho branco seco", "quantidade": 100, "unidade": "ml" },
+      { "item": "manteiga", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "parmesão ralado", "quantidade": 40, "unidade": "g" }
+    ],
+    "modo_preparo": [
+      "Doure os camarões em 1 colher de manteiga por 1 minuto de cada lado. Reserve.",
+      "Refogue a cebola na manteiga por 3 minutos. Junte o arroz e mexa por 2 minutos.",
+      "Adicione o vinho e deixe evaporar. Acrescente o caldo, uma concha por vez, mexendo até absorver, por cerca de 18 minutos.",
+      "Quando o arroz estiver cremoso e al dente, junte os camarões, o parmesão e a manteiga restante.",
+      "Sirva imediatamente."
+    ],
+    "dicas": "Mantenha o caldo quente para não interromper o cozimento do arroz."
+  },
+  {
+    "id": "peixes-009",
+    "nome": "Lula à dorê",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 4,
+    "tempo_minutos": 30,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "lulas limpas em anéis", "quantidade": 500, "unidade": "g" },
+      { "item": "limão (suco)", "quantidade": 1, "unidade": "un" },
+      { "item": "farinha de trigo", "quantidade": 1, "unidade": "xícara" },
+      { "item": "ovos batidos", "quantidade": 2, "unidade": "un" },
+      { "item": "óleo para fritar", "quantidade": 500, "unidade": "ml" }
+    ],
+    "modo_preparo": [
+      "Tempere as lulas com limão, sal e pimenta por 10 minutos. Seque bem.",
+      "Passe os anéis na farinha e depois nos ovos batidos.",
+      "Frite em óleo bem quente (180 °C) por 1 a 2 minutos, em pequenas porções, até dourar.",
+      "Escorra em papel-toalha e sirva com limão."
+    ],
+    "dicas": "Mais de 2 minutos de fritura deixa a lula dura como borracha."
+  },
+  {
+    "id": "peixes-010",
+    "nome": "Bobó de camarão",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 6,
+    "tempo_minutos": 60,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "mandioca descascada", "quantidade": 700, "unidade": "g" },
+      { "item": "camarões médios limpos", "quantidade": 600, "unidade": "g" },
+      { "item": "leite de coco", "quantidade": 300, "unidade": "ml" },
+      { "item": "azeite de dendê", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "pimentão vermelho picado", "quantidade": 1, "unidade": "un" },
+      { "item": "tomate picado", "quantidade": 2, "unidade": "un" },
+      { "item": "coentro", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Cozinhe a mandioca em água com sal por 30 minutos, até ficar bem macia. Bata no liquidificador com 1 xícara da água do cozimento até virar um creme.",
+      "Refogue a cebola, o pimentão e o tomate no dendê por 5 minutos. Junte os camarões e cozinhe por 3 minutos.",
+      "Adicione o creme de mandioca e o leite de coco. Cozinhe em fogo baixo por 10 minutos, mexendo.",
+      "Finalize com coentro e sirva com arroz."
+    ],
+    "dicas": "Se ficar espesso demais, afine com mais água do cozimento."
+  },
+  {
+    "id": "peixes-011",
+    "nome": "Atum selado",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 2,
+    "tempo_minutos": 15,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "lombo de atum fresco", "quantidade": 300, "unidade": "g" },
+      { "item": "gergelim", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "shoyu", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "azeite", "quantidade": 1, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Pincele o atum com shoyu e passe no gergelim, cobrindo todos os lados.",
+      "Aqueça uma frigideira antiaderente até ficar bem quente e coloque o azeite.",
+      "Sele o atum por 30 segundos a 1 minuto de cada lado, mantendo o centro rosado.",
+      "Fatie em lâminas finas e sirva imediatamente."
+    ],
+    "dicas": "Use apenas atum fresco, de procedência confiável, pois o centro fica cru."
+  },
+  {
+    "id": "peixes-012",
+    "nome": "Bolinho de bacalhau",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 8,
+    "tempo_minutos": 60,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "bacalhau dessalgado", "quantidade": 400, "unidade": "g" },
+      { "item": "batatas", "quantidade": 400, "unidade": "g" },
+      { "item": "cebola ralada", "quantidade": 1, "unidade": "un" },
+      { "item": "ovos", "quantidade": 2, "unidade": "un" },
+      { "item": "salsinha picada", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "óleo para fritar", "quantidade": 500, "unidade": "ml" }
+    ],
+    "modo_preparo": [
+      "Cozinhe o bacalhau por 10 minutos. Escorra, retire pele e espinhas e desfie.",
+      "Cozinhe as batatas, amasse ainda quentes e misture com o bacalhau, a cebola, os ovos e a salsinha.",
+      "Acerte o sal e a pimenta. Modele bolinhos com duas colheres.",
+      "Frite em óleo a 180 °C até dourar, 3 a 4 minutos. Escorra em papel-toalha."
+    ],
+    "dicas": "Se a massa estiver mole, leve à geladeira por 20 minutos antes de modelar."
+  },
+  {
+    "id": "peixes-013",
+    "nome": "Sopa de peixe",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 6,
+    "tempo_minutos": 50,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "filés de peixe branco em cubos", "quantidade": 600, "unidade": "g" },
+      { "item": "batatas em cubos", "quantidade": 3, "unidade": "un" },
+      { "item": "cenoura em cubos", "quantidade": 1, "unidade": "un" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "tomates picados", "quantidade": 2, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "cheiro-verde", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Refogue a cebola no azeite por 4 minutos. Junte os tomates e cozinhe por 3 minutos.",
+      "Adicione as batatas, a cenoura e 1,2 litro de água quente. Cozinhe por 15 minutos.",
+      "Acrescente o peixe e cozinhe por mais 8 a 10 minutos.",
+      "Acerte o sal, finalize com o cheiro-verde e sirva quente."
+    ],
+    "dicas": "Junte o peixe só no final para que não desmanche demais."
+  },
+  {
+    "id": "peixes-014",
+    "nome": "Casquinha de siri",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 6,
+    "tempo_minutos": 45,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "carne de siri", "quantidade": 400, "unidade": "g" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "tomate sem sementes picado", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho", "quantidade": 2, "unidade": "un" },
+      { "item": "leite de coco", "quantidade": 100, "unidade": "ml" },
+      { "item": "farinha de rosca", "quantidade": 4, "unidade": "colher de sopa" },
+      { "item": "coentro", "quantidade": 2, "unidade": "colher de sopa" },
+      { "item": "manteiga", "quantidade": 1, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Refogue a cebola e o alho em azeite por 3 minutos. Junte o tomate e cozinhe por 2 minutos.",
+      "Adicione a carne de siri e refogue por 5 minutos.",
+      "Acrescente o leite de coco e metade da farinha de rosca. Cozinhe até engrossar. Finalize com coentro.",
+      "Distribua em conchas ou ramequins, polvilhe a farinha restante e pontos de manteiga.",
+      "Gratine no forno a 220 °C por 10 minutos."
+    ],
+    "dicas": "Confira a carne de siri e retire pedaços de casca antes de usar."
+  },
+  {
+    "id": "peixes-015",
+    "nome": "Peixe assado com batatas e legumes",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 4,
+    "tempo_minutos": 60,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "postas de peixe (pescada, dourado)", "quantidade": 800, "unidade": "g" },
+      { "item": "batatas em rodelas", "quantidade": 4, "unidade": "un" },
+      { "item": "cebola em rodelas", "quantidade": 2, "unidade": "un" },
+      { "item": "tomates em rodelas", "quantidade": 2, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 4, "unidade": "colher de sopa" },
+      { "item": "limão (suco)", "quantidade": 2, "unidade": "un" },
+      { "item": "azeitonas", "quantidade": 12, "unidade": "un" }
+    ],
+    "modo_preparo": [
+      "Tempere o peixe com limão, sal e pimenta por 15 minutos.",
+      "Forre uma assadeira com as batatas e a cebola, regue com metade do azeite e asse a 200 °C por 20 minutos.",
+      "Coloque o peixe e o tomate por cima, junte as azeitonas e o azeite restante.",
+      "Cubra com alumínio e asse por 20 minutos. Retire o alumínio e asse por mais 10 minutos."
+    ],
+    "dicas": "Pré-assar as batatas garante que fiquem macias junto com o peixe."
+  },
+  {
+    "id": "peixes-016",
+    "nome": "Vinagrete de polvo",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 6,
+    "tempo_minutos": 90,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "polvo limpo", "quantidade": 1, "unidade": "kg" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "tomates sem sementes picados", "quantidade": 3, "unidade": "un" },
+      { "item": "pimentão verde picado", "quantidade": 1, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 5, "unidade": "colher de sopa" },
+      { "item": "vinagre de vinho branco", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "salsinha picada", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Cozinhe o polvo na panela de pressão, só com a própria água, por 25 minutos após pegar pressão.",
+      "Deixe esfriar no caldo, corte em pedaços de 2 cm.",
+      "Misture a cebola, o tomate, o pimentão, o azeite, o vinagre e a salsinha. Tempere com sal e pimenta.",
+      "Junte o polvo ao vinagrete e deixe descansar por 30 minutos na geladeira. Sirva frio."
+    ],
+    "dicas": "Não adicione sal na água do polvo: ele já solta sal ao cozinhar."
+  },
+  {
+    "id": "peixes-017",
+    "nome": "Camarão alho e óleo",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 4,
+    "tempo_minutos": 15,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "camarões grandes limpos", "quantidade": 500, "unidade": "g" },
+      { "item": "dentes de alho fatiados", "quantidade": 6, "unidade": "un" },
+      { "item": "azeite de oliva", "quantidade": 5, "unidade": "colher de sopa" },
+      { "item": "pimenta calabresa", "quantidade": 1, "unidade": "colher de chá" },
+      { "item": "salsinha picada", "quantidade": 2, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Tempere os camarões com sal.",
+      "Aqueça o azeite em fogo baixo e doure o alho por 1 a 2 minutos, com a pimenta.",
+      "Aumente o fogo, junte os camarões e cozinhe por 2 a 3 minutos de cada lado, até rosados.",
+      "Finalize com salsinha e sirva com pão ou arroz."
+    ],
+    "dicas": "Não deixe o alho escurecer, para não amargar."
+  },
+  {
+    "id": "peixes-018",
+    "nome": "Arroz de marisco",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 6,
+    "tempo_minutos": 50,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "arroz", "quantidade": 2, "unidade": "xícara" },
+      { "item": "mix de frutos do mar (camarão, lula, mexilhão)", "quantidade": 600, "unidade": "g" },
+      { "item": "cebola picada", "quantidade": 1, "unidade": "un" },
+      { "item": "dentes de alho", "quantidade": 3, "unidade": "un" },
+      { "item": "tomates picados", "quantidade": 2, "unidade": "un" },
+      { "item": "vinho branco seco", "quantidade": 100, "unidade": "ml" },
+      { "item": "caldo de peixe quente", "quantidade": 700, "unidade": "ml" },
+      { "item": "coentro", "quantidade": 3, "unidade": "colher de sopa" }
+    ],
+    "modo_preparo": [
+      "Refogue a cebola e o alho no azeite por 4 minutos. Junte o tomate e cozinhe por 3 minutos.",
+      "Adicione o arroz e mexa por 2 minutos. Acrescente o vinho e deixe evaporar.",
+      "Junte o caldo quente, tampe e cozinhe em fogo baixo por 12 minutos.",
+      "Adicione os frutos do mar, tampe e cozinhe por mais 6 a 8 minutos.",
+      "Finalize com coentro e deixe descansar 5 minutos."
+    ],
+    "dicas": "Mexilhões que não abrem durante o cozimento devem ser descartados."
+  },
+  {
+    "id": "peixes-019",
+    "nome": "Sardinha assada",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 4,
+    "tempo_minutos": 25,
+    "dificuldade": "fácil",
+    "ingredientes": [
+      { "item": "sardinhas frescas limpas", "quantidade": 12, "unidade": "un" },
+      { "item": "sal grosso", "quantidade": 1, "unidade": "colher de sopa" },
+      { "item": "azeite de oliva", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "limão", "quantidade": 2, "unidade": "un" }
+    ],
+    "modo_preparo": [
+      "Salgue as sardinhas com sal grosso 15 minutos antes de assar.",
+      "Aqueça o forno a 220 °C ou uma grelha bem quente.",
+      "Pincele com azeite e asse ou grelhe por 4 a 5 minutos de cada lado, até a pele dourar.",
+      "Sirva com limão e salada."
+    ],
+    "dicas": "Sardinha fresca tem olhos brilhantes e cheiro suave de mar."
+  },
+  {
+    "id": "peixes-020",
+    "nome": "Ceviche de peixe",
+    "categoria": "peixes-frutos-do-mar",
+    "porcoes": 4,
+    "tempo_minutos": 30,
+    "dificuldade": "média",
+    "ingredientes": [
+      { "item": "peixe branco fresco em cubos (robalo, linguado)", "quantidade": 500, "unidade": "g" },
+      { "item": "limão (suco)", "quantidade": 8, "unidade": "un" },
+      { "item": "cebola roxa em fatias finas", "quantidade": 1, "unidade": "un" },
+      { "item": "pimenta dedo-de-moça sem sementes", "quantidade": 1, "unidade": "un" },
+      { "item": "coentro picado", "quantidade": 3, "unidade": "colher de sopa" },
+      { "item": "sal", "quantidade": 1, "unidade": "colher de chá" }
+    ],
+    "modo_preparo": [
+      "Mantenha o peixe bem gelado e corte em cubos de 2 cm.",
+      "Misture o peixe com o suco de limão e o sal. Deixe por 10 a 15 minutos na geladeira, até as bordas ficarem opacas.",
+      "Junte a cebola, a pimenta e o coentro.",
+      "Sirva imediatamente, bem gelado."
+    ],
+    "dicas": "Use apenas peixe de excelente procedência, congelado previamente se possível, pois não vai ao fogo."
+  }
+]
